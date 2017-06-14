@@ -17,7 +17,7 @@ import thinkbayes
 from src import thinkplot
 
 INTERVAL = 245/365.0
-FORMATS = ['pdf', 'eps']
+FORMATS = ['pdf']
 MINSIZE = 0.2
 MAXSIZE = 20
 BUCKET_FACTOR = 10
@@ -231,7 +231,7 @@ def generateSample(n, pc, lam1, lam2):
 
     Returns: list of random variates
     """
-    xs = [generateRdt(pc, lam1, lam2) for _ in xrange(n)]
+    xs = [generateRdt(pc, lam1, lam2) for _ in range(n)]
     return xs
 
 
@@ -734,7 +734,7 @@ def testCorrelation(cdf):
     thinkplot.show()
 
 
-def main(script):
+def main(): #main(script):
     for size in [1, 5, 10]:
         bucket = cmToBucket(size)
         print('Size, bucket', size, bucket)
@@ -774,6 +774,7 @@ def main(script):
 
 
 if __name__ == '__main__':
-    main(*sys.argv)
+    main()
+    # main(*sys.argv)
 
 

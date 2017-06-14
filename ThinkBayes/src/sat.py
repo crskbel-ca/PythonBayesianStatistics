@@ -95,14 +95,14 @@ class Exam(object):
     Interpolator that maps between scaled and raw scores.
     """
     def __init__(self):
-        self.scale = readScale()
+        self.scale = readScale() # scale is interpolator (linear mapping) between raws and scores sorted.
 
         scores = readRanks()
-        score_pmf = thinkbayes.makePmfFromDict(dict(scores))
+        score_pmf = thinkbayes.makePmfFromDict(dict(scores)) # pmf of scaled scores
 
-        self.raw = self.reverseScale(score_pmf)
-        self.max_score = max(self.raw.keys())
-        self.prior = divideValues(self.raw, denom=self.max_score)
+        self.raw = self.reverseScale(score_pmf) # pmf of raw scores (gets raw from scores and assigns probs)
+        self.max_score = max(self.raw.keys()) # max raw score
+        self.prior = divideValues(self.raw, denom=self.max_score) # pmf of p_correct (raw/highestraw, prob)
 
         center = -0.05
         width = 1.8
@@ -124,14 +124,16 @@ class Exam(object):
 
         top = TopLevel('AB')
         top.update((a_sat, b_sat))
-        top.print()
+
+        print("Printing toplevel suite: ")
+        top.printSuite() ## note: p(A) = 77% and p(B) = 23% ... Alice posterior is 77% (prob of efficacy)
 
         ratio = top.prob('A') / top.prob('B')
 
-        print('Likelihood ratio', ratio)
+        print('Likelihood ratio = ', ratio) # =3.8 so Alice is better than Bob at SAT.
 
         posterior = ratio / (ratio + 1)
-        print('Posterior', posterior)
+        print('Posterior = ', posterior)
 
         if constructor is Sat2:
             comparePosteriorPredictive(a_sat, b_sat)
@@ -158,14 +160,14 @@ class Exam(object):
         thinkplot.cdf(cdf)
 
         efficacies = thinkbayes.makeGaussianPmf(0, 1.5, 3)
-        pmf = self.makeRawScoreDist(efficacies)
+        pmf = self.makeRawScoreDist(efficacies) # mixture model of raw score, prob = p1 * p2
         cdf = thinkbayes.makeCdfFromPmf(pmf, name='model')
         thinkplot.cdf(cdf)
 
-        thinkplot.save(root='sat_calibrate',
+        thinkplot.save(root='sat_2_calibrate',
                        xlabel='raw score',
                        ylabel='CDF',
-                       formats=['pdf', 'eps'])
+                       formats=['pdf'])
 
     def pmfCorrect(self, efficacy):
         """Returns the PMF of number of correct responses.
@@ -214,8 +216,10 @@ class Sat(thinkbayes.Suite):
         # start with the prior distribution
         thinkbayes.Suite.__init__(self, exam.prior)
 
-        # update based on an exam score
+        # note: update based on an exam score
         self.update(score)
+
+
 
     def likelihood(self, data, hypo):
         """Computes the likelihood of a test score, given efficacy."""
@@ -242,8 +246,8 @@ class Sat(thinkbayes.Suite):
         thinkplot.save(xlabel='p_correct',
                        ylabel='CDF',
                        axis=[0.7, 1.0, 0.0, 1.0],
-                       root='sat_posteriors_p_corr',
-                       formats=['pdf', 'eps'])
+                       root='sat_3_posteriors_p_corr',
+                       formats=['pdf'])
 
 
 class Sat2(thinkbayes.Suite):
@@ -290,8 +294,8 @@ class Sat2(thinkbayes.Suite):
         thinkplot.save(xlabel='efficacy',
                        ylabel='CDF',
                        axis=[0, 4.6, 0.0, 1.0],
-                       root='sat_posteriors_eff',
-                       formats=['pdf', 'eps'])
+                       root='sat_5_posteriors_eff',
+                       formats=['pdf'])
 
 
 def plotJointDist(pmf1, pmf2, thresh=0.8):
@@ -315,11 +319,11 @@ def plotJointDist(pmf1, pmf2, thresh=0.8):
     thinkplot.plot([thresh, 1.0], [thresh, 1.0],
                    color='gray', alpha=0.2, linewidth=4)
 
-    thinkplot.save(root='sat_joint',
+    thinkplot.save(root='sat_4_joint',
                    xlabel='p_correct Alice',
                    ylabel='p_correct Bob',
                    axis=[thresh, 1.0, thresh, 1.0],
-                   formats=['pdf', 'eps'])
+                   formats=['pdf'])
 
 
 def comparePosteriorPredictive(a_sat, b_sat):
@@ -335,14 +339,14 @@ def comparePosteriorPredictive(a_sat, b_sat):
     #thinkplot.Pmfs([a_pred, b_pred])
     #thinkplot.Show()
 
-    a_like = thinkbayes.pmfProbGreater(a_pred, b_pred)
-    b_like = thinkbayes.pmfProbLess(a_pred, b_pred)
-    c_like = thinkbayes.pmfProbEqual(a_pred, b_pred)
+    a_like = thinkbayes.pmfProbGreater(a_pred, b_pred)  # pred prob Alice better
+    b_like = thinkbayes.pmfProbLess(a_pred, b_pred) # pred prob Bob better.
+    c_like = thinkbayes.pmfProbEqual(a_pred, b_pred) # pred prob a tie.
 
     print('Posterior predictive')
-    print('A', a_like)
-    print('B', b_like)
-    print('C', c_like)
+    print('A (pmf prob greater (a,b) = ', a_like) # 63% chance Alice does better on new test against Bob.
+    print('B (pmf prob less (a,b) = ', b_like)
+    print('C (pmf prob equal (a,b) = ', c_like)
 
 
 def plotPriorDist(pmf):
@@ -355,10 +359,10 @@ def plotPriorDist(pmf):
 
     cdf1 = thinkbayes.makeCdfFromPmf(pmf, 'prior')
     thinkplot.cdf(cdf1)
-    thinkplot.save(root='sat_prior',
+    thinkplot.save(root='sat_1_prior',
                    xlabel='p_correct',
                    ylabel='CDF',
-                   formats=['pdf', 'eps'])
+                   formats=['pdf']) # ['pdf', 'eps'])
 
 
 class TopLevel(thinkbayes.Suite):
@@ -369,12 +373,14 @@ class TopLevel(thinkbayes.Suite):
     """
 
     def update(self, data):
-        a_sat, b_sat = data
+        a_sat, b_sat = data # posterior distributions are passed.
 
         a_like = thinkbayes.pmfProbGreater(a_sat, b_sat)
         b_like = thinkbayes.pmfProbLess(a_sat, b_sat)
+        # round-off error beacuse p_correct is a discrete distribution
         c_like = thinkbayes.pmfProbEqual(a_sat, b_sat)
 
+        # splitting this round off error evenly between a and b
         a_like += c_like / 2
         b_like += c_like / 2
 
@@ -457,15 +463,19 @@ def probCorrectTable():
 
 
 def main(script):
+    print("\nPrinting prob correct table: ------------------------\n")
     probCorrectTable()
 
     exam = Exam()
 
+    print("\nPlotting exam prior distribution: ------------------------")
     plotPriorDist(exam.prior)
+
+
     exam.calibrateDifficulty()
 
+    print("\nComparing scores: ------------------------")
     exam.compareScores(780, 740, constructor=Sat)
-
     exam.compareScores(780, 740, constructor=Sat2)
 
 

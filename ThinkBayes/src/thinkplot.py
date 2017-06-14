@@ -29,7 +29,7 @@ class Brewer(object):
 
     Shades of blue that look good in color and can be distinguished
     in grayscale (up to a point).
-    
+
     Borrowed from http://colorbrewer2.org/
     """
     color_iter = None
@@ -104,7 +104,7 @@ def prePlot(num=None, rows=1, cols=1):
         global SUBPLOT_ROWS, SUBPLOT_COLS
         SUBPLOT_ROWS = rows
         SUBPLOT_COLS = cols
-    
+
 
 def subPlot(plot_number):
     pyplot.subplot(SUBPLOT_ROWS, SUBPLOT_COLS, plot_number)
@@ -151,13 +151,13 @@ def clf():
     """Clears the figure and any hints that have been set."""
     Brewer.clearIter()
     pyplot.clf()
-    
+
 
 def figure(**options):
     """Sets options for the current figure."""
     underride(options, figsize=(6, 8))
     pyplot.figure(**options)
-    
+
 
 def plot(xs, ys, style='', **options):
     """Plots a line.
@@ -176,7 +176,7 @@ def plot(xs, ys, style='', **options):
         except StopIteration:
             print('Warning: Brewer ran out of colors.')
             Brewer.clearIter()
-        
+
     options = underride(options, linewidth=3, alpha=0.8)
     pyplot.plot(xs, ys, style, **options)
 
@@ -211,7 +211,7 @@ def pmfs(pmfs, **options):
 
     Options are passed along for all PMFs.  If you want different
     options for each pmf, make multiple calls to Pmf.
-    
+
     Args:
       pmfs: sequence of PMF objects
       options: keyword args passed to pyplot.plot
@@ -310,8 +310,8 @@ def cdf(aCdf, complement=False, transform=None, **options):
         ps = [-math.log(p) for p in ps]
         scale['yscale'] = 'log'
 
-    if aCdf.Name:
-        options = underride(options, label=aCdf.Name)
+    if aCdf.name:
+        options = underride(options, label=aCdf.name)
 
     plot(xs, ps, **options)
     return scale
@@ -319,7 +319,7 @@ def cdf(aCdf, complement=False, transform=None, **options):
 
 def cdfs(someCdfs, complement=False, transform=None, **options):
     """Plots a sequence of CDFs.
-    
+
     cdfs: sequence of CDF objects
     complement: boolean, whether to plot the complementary CDF
     transform: string, one of 'exponential', 'pareto', 'weibull', 'gumbel'
@@ -331,7 +331,7 @@ def cdfs(someCdfs, complement=False, transform=None, **options):
 
 def contour(obj, pcolor=False, contour=True, imshow=False, **options):
     """Makes a contour plot.
-    
+
     d: map from (x, y) to z, or object that provides GetDict
     pcolor: boolean, whether to make a pseudocolor plot
     contour: boolean, whether to make a contour plot
@@ -366,11 +366,11 @@ def contour(obj, pcolor=False, contour=True, imshow=False, **options):
     if imshow:
         extent = xs[0], xs[-1], ys[0], ys[-1]
         pyplot.imshow(Z, extent=extent, **options)
-        
+
 
 def pColor(xs, ys, zs, pcolor=True, contour=False, **options):
     """Makes a pseudocolor plot.
-    
+
     xs:
     ys:
     zs:
@@ -393,7 +393,7 @@ def pColor(xs, ys, zs, pcolor=True, contour=False, **options):
     if contour:
         cs = pyplot.contour(X, Y, Z, **options)
         pyplot.clabel(cs, inline=1, fontsize=10)
-        
+
 
 def config(**options):
     """Configures the plot.
@@ -402,31 +402,29 @@ def config(**options):
     title, xlabel, ylabel, xscale, yscale, xticks, yticks, axis, legend,
     and loc.
     """
-    title = options.get('title', '')
-    pyplot.title(title)
+    names = ['title', 'xlabel', 'ylabel', 'xscale', 'yscale',
+             'xticks', 'yticks', 'axis', 'xlim', 'ylim']
 
-    xlabel = options.get('xlabel', '')
-    pyplot.xlabel(xlabel)
+    for name in names:
+        if name in options:
+            getattr(pyplot, name)(options[name])
 
-    ylabel = options.get('ylabel', '')
-    pyplot.ylabel(ylabel)
-
-    if 'xscale' in options:
-        pyplot.xscale(options['xscale'])
-
-    if 'xticks' in options:
-        pyplot.xticks(options['xticks'])
-
-    if 'yscale' in options:
-        pyplot.yscale(options['yscale'])
-
-    if 'yticks' in options:
-        pyplot.yticks(options['yticks'])
-
-    if 'axis' in options:
-        pyplot.axis(options['axis'])
+    # looks like this is not necessary: matplotlib understands text loc specs
+    loc_dict = {'upper right': 1,
+                'upper left': 2,
+                'lower left': 3,
+                'lower right': 4,
+                'right': 5,
+                'center left': 6,
+                'center right': 7,
+                'lower center': 8,
+                'upper center': 9,
+                'center': 10,
+                }
 
     loc = options.get('loc', 0)
+    #loc = loc_dict.get(loc, loc)
+
     legend = options.get('legend', True)
     if legend:
         pyplot.legend(loc=loc)
@@ -465,7 +463,7 @@ def save(root=None, formats=None, **options):
     clf()
 
 
-def saveFormat(root, fmt='eps'):
+def saveFormat(root, fmt='pdf'): # todo: changed default from 'eps' to 'pdf'
     """Writes the current figure to a file in the given format.
 
     Args:

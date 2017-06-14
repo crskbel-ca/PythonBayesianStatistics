@@ -788,8 +788,8 @@ def makePmfFromDict(d, name=''):
     Returns:
         Pmf object
     """
-    pmf = PMF(d, name)
-    pmf.normalize()
+    pmf = PMF(d, name) # pmf of probabilities
+    pmf.normalize() # normalizing the pmf of probabilities, same result
     return pmf
 
 
@@ -863,7 +863,7 @@ def makeMixture(metapmf, name='mix'):
     mix = PMF(name=name)
     for pmf, p1 in metapmf.items():
         for x, p2 in pmf.items():
-            mix.incr(x, p1 * p2)
+            mix.incr(x, p1 * p2) # taking out the x-value and assigning it prob(p1 * p2)
     return mix
 
 
