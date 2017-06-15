@@ -271,7 +271,7 @@ def bucketToCm(y, factor=BUCKET_FACTOR):
     """Computes the linear dimension for a given bucket.
 
     t: bucket number
-    factor: multiplicitive factor from one bucket to the next
+    factor: multiplicative factor from one bucket to the next
 
     Returns: linear dimension in cm
     """
@@ -321,7 +321,7 @@ class Cache(object):
 
     def getBuckets(self):
         """Returns an iterator for the keys in the cache."""
-        return self.sequences.iterkeys()
+        return iter(self.sequences.keys()) # todo changed from: self.sequences.iterkeys()
 
     def getSequence(self, bucket):
         """Looks up a bucket in the cache."""
@@ -333,7 +333,7 @@ class Cache(object):
         bucket: int bucket number
         name: string
         """
-        pmf = self.joint.Conditional(0, 1, bucket, name=name)
+        pmf = self.joint.conditional(0, 1, bucket, name=name)
         cdf = pmf.makeCdf()
         return cdf
 
@@ -509,6 +509,7 @@ class Calculator(object):
         thinkplot.save(root='kidney8',
                        formats=FORMATS,
                        axis=[0, 41, -0.7, 1.31],
+                       # todo changed from tuple output of: makeLogTicks([0.2, 0.5, 1, 2, 5, 10, 20])
                        yticks=makeLogTicks([0.2, 0.5, 1, 2, 5, 10, 20]),
                        xlabel='ages',
                        ylabel='diameter (cm, log scale)')
@@ -593,9 +594,10 @@ class Calculator(object):
                        xlabel='diameter (cm, log scale)',
                        ylabel='tumor age (years)',
                        xscale=xscale,
-                       xticks=makeTicks([0.5, 1, 2, 5, 10, 20]),
+                       # todo changed from the tuple result of: makeTicks([0.5, 1, 2, 5, 10, 20]),
+                       xticks=[0.5, 1, 2, 5, 10, 20],
                        axis=[0.25, 35, 0, 45],
-                       legend=False,
+                       legend=False # todo removed comma at the end here.
                        )
 
 
@@ -620,7 +622,8 @@ def plotSequences(sequences):
                    axis=[0, 40, MINSIZE, 20],
                    title='Simulations of tumor growth',
                    xlabel='tumor age (years)',
-                   yticks=makeTicks([0.2, 0.5, 1, 2, 5, 10, 20]),
+                   # todo changed from tupled result of: makeTicks([0.2, 0.5, 1, 2,  5, 10, 20])
+                   yticks=[0.2, 0.5, 1, 2, 5, 10, 20],
                    ylabel='diameter (cm, log scale)',
                    yscale='log')
 
@@ -708,11 +711,12 @@ def makeLogTicks(xs):
 
     xs: sequence of floats
 
-    Returns (xs, labels), where labels is a sequence of strings.
+    Returns (xs, labels), where labels is a sequence of strings. # todo changed
     """
     lxs = [math.log10(x) for x in xs]
     labels = [str(x) for x in xs]
-    return lxs, labels
+    return lxs
+    # return lxs, labels todo changed here to return just lxs (float vals, otherwise python error plot)
 
 
 def testCorrelation(cdf):
