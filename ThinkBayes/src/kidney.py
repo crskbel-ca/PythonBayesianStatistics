@@ -31,6 +31,9 @@ def log2(x, denom=math.log(2)):
 def simpleModel():
     """Runs calculations based on a simple model."""
 
+    # METHOD 1:
+    print("\nMethod 2: assume tumor formed after discharge date (arbitrary choice: d0=0.1):")
+
     # time between discharge and diagnosis, in days
     interval = 3291.0
 
@@ -41,17 +44,20 @@ def simpleModel():
     doublings = interval / dt
 
     # how big was the tumor at time of discharge (diameter in cm)
-    d1 = 15.5
+    d1 = 15.5 # we know that now it is 15.5 cm.
     d0 = d1 / 2.0 ** doublings
 
-    print('interval (days)', interval)
-    print('interval (years)', interval / 365)
-    print('dt', dt)
-    print('doublings', doublings)
-    print('d1', d1)
-    print('d0', d0)
+    print('interval (days) = ', interval)
+    print('interval (years) = ', interval / 365)
+    print('dt = ', dt)
+    print('doublings = ', doublings)
+    print('d1 = ', d1)
+    # note: conclude if tumor formed after discharge date, then it grew much
+    # faster than median rate.
+    print('d0 = ', d0)
 
-    # assume an initial linear measure of 0.1 cm
+    # METHOD 2: tumor formed after discharge date: assume an initial linear measure of 0.1 cm
+    print("\nMethod 2: assume tumor formed after discharge date (arbitrary choice: d0=0.1):")
     d0 = 0.1
     d1 = 15.5
 
@@ -59,21 +65,22 @@ def simpleModel():
     doublings = log2(d1 / d0)
 
     # what linear doubling time does that imply?
-    dt = interval / doublings
-
-    print('doublings', doublings)
+    dt = interval / doublings # linear doubling time
+    print('doublings = ', doublings)
     print('dt', dt)
 
     # compute the volumetric doubling time and RDT
-    vdt = dt / 3
-    rdt = 365 / vdt
+    vdt = dt / 3 # volumentric doubling time
+    rdt = 365 / vdt # reciprocal doubleing time.
 
-    print('vdt', vdt)
-    print('rdt', rdt)
+    print('vdt = ', vdt)
+    # note: conclude that since only 20% of tumors grew this fast in research,
+    # then sergeant's tumor is likely to have formed prior to discharge date.
+    print('rdt = ', rdt)
 
     cdf = makeCdf()
     p = cdf.prob(rdt)
-    print('Prob{RDT > 2.4}', 1-p)
+    print('Prob{RDT > 2.4} = ', 1-p)
 
 
 def makeCdf():
@@ -743,32 +750,39 @@ def main(): #main(script):
         bucket = cmToBucket(size)
         print('Size, bucket', size, bucket)
 
+    print("\n\nThe Simple Model: ------------------------------- \n")
     simpleModel()
-
     random.seed(17)
-
     cdf = makeCdf()
-
     lam1 = fitCdf(cdf)
     fit = generateCdf(lam1=lam1)
 
     # TestCorrelation(fit)
 
-    plotCdf(cdf)
+    print()
+    plotCdf(cdf) # todo zero is printed on newline after this, find out why.
     # QQPlot(cdf, fit)
 
     calc = Calculator()
     rho = 0.0
     sequences = calc.makeSequences(100, rho, fit)
     plotSequences(sequences)
-
     calc.plotBuckets()
 
-    _ = calc.makeSequences(1900, rho, fit)
-    print('V0-RDT correlation', calc.cache.correlation())
+    print("\n\nMaking sequences: ----------------")
 
-    print('15.5 Probability age > 8 year', calc.cache.probOlder(15.5, 8))
-    print('6.0 Probability age > 8 year', calc.cache.probOlder(6.0, 8))
+    _ = calc.makeSequences(1900, rho, fit)
+
+
+    # note: first question:
+    # Given tumor with linear dimension 15.5 cm, what is probability that
+    # it formed more than 8 years ago?
+    # note 15.5 cm and 6 cm are the results using the methods above, using the age distribution
+    # we just created.
+    print('\n\nV0-RDT correlation = {0}'.format(calc.cache.correlation()))
+    print('15.5 cm, Probability age > 8 year = {0}'.format(calc.cache.probOlder(15.5, 8)))
+    print('6.0 cm, Probability age > 8 year = {0}\n\n'.format(calc.cache.probOlder(6.0, 8)))
+
 
     calc.plotConditionalCdfs()
 
