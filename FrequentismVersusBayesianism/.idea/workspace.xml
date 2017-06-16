@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1738fb9c-5c92-4c54-ae50-135af7a63aeb" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/part1.ipynb" afterPath="$PROJECT_DIR$/part1.ipynb" />
     </list>
     <ignored path="[Blog]FreqVsBayes.iws" />
@@ -735,12 +734,12 @@
       <workItem from="1497594798759" duration="113000" />
       <workItem from="1497611363186" duration="1149000" />
       <workItem from="1497614930105" duration="1311000" />
-      <workItem from="1497617302788" duration="6597000" />
+      <workItem from="1497617302788" duration="7195000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14284000" />
+    <option name="totallyTimeSpent" value="14882000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="81" y="24" width="977" height="765" extended-state="4" />
@@ -826,7 +825,7 @@
     <entry file="file://$PROJECT_DIR$/part1.ipynb">
       <provider selected="true" editor-type-id="ipnb-editor">
         <state>
-          <selected id="2" />
+          <selected id="13" />
         </state>
       </provider>
     </entry>
