@@ -2,121 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1738fb9c-5c92-4c54-ae50-135af7a63aeb" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/part1.ipynb" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/part1.nbconvert.ipynb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../[Allen B. Downey] ThinkStats/1982NSFGData.dat.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../[Allen B. Downey] ThinkStats/1995FemRespData.dat.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../[Allen B. Downey] ThinkStats/2002FemPreg.dat.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../[Allen B. Downey] ThinkStats/2002FemPreg.dct" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../[Allen B. Downey] ThinkStats/2002FemResp.dat.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../[Allen B. Downey] ThinkStats/2002FemResp.dct" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../[Allen B. Downey] ThinkStats/2002Male.dat.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../[Allen B. Downey] ThinkStats/2002Male.dct" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../[Allen B. Downey] ThinkStats/2006_2010_FemPreg.dat.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../[Allen B. Downey] ThinkStats/2006_2010_FemPregSetup.dct" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../[Allen B. Downey] ThinkStats/2006_2010_FemResp.dat.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../[Allen B. Downey] ThinkStats/2006_2010_FemRespSetup.dct" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../[Allen B. Downey] ThinkStats/2006_2010_Male.dat.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../[Allen B. Downey] ThinkStats/2006_2010_MaleSetup.dct" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../[Allen B. Downey] ThinkStats/2011_2013_FemPregData.dat.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../[Allen B. Downey] ThinkStats/2011_2013_FemPregSetup.dct" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../[Allen B. Downey] ThinkStats/2011_2013_FemRespData.dat.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../[Allen B. Downey] ThinkStats/2011_2013_FemRespSetup.dct" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../[Allen B. Downey] ThinkStats/2011_2013_MaleData.dat.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../[Allen B. Downey] ThinkStats/2011_2013_MaleSetup.dct" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../[Allen B. Downey] ThinkStats/Apr25_27thAn_set1.shtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../[Allen B. Downey] ThinkStats/CDBRFS08.ASC.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../[Allen B. Downey] ThinkStats/CDBRFS08ASC.ZIP" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../[Allen B. Downey] ThinkStats/Makefile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../[Allen B. Downey] ThinkStats/PEP_2012_PEPANNRES_metadata.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../[Allen B. Downey] ThinkStats/PEP_2012_PEPANNRES_with_ann.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../[Allen B. Downey] ThinkStats/analytic.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../[Allen B. Downey] ThinkStats/babyboom.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../[Allen B. Downey] ThinkStats/brfss.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../[Allen B. Downey] ThinkStats/chap01ex.ipynb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../[Allen B. Downey] ThinkStats/chap01ex.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../[Allen B. Downey] ThinkStats/chap01soln.ipynb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../[Allen B. Downey] ThinkStats/chap01soln.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../[Allen B. Downey] ThinkStats/chap02ex.ipynb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../[Allen B. Downey] ThinkStats/chap02ex.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../[Allen B. Downey] ThinkStats/chap02soln.ipynb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../[Allen B. Downey] ThinkStats/chap02soln.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../[Allen B. Downey] ThinkStats/chap03ex.ipynb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../[Allen B. Downey] ThinkStats/chap03soln.ipynb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../[Allen B. Downey] ThinkStats/chap03soln.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../[Allen B. Downey] ThinkStats/chap04ex.ipynb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../[Allen B. Downey] ThinkStats/chap04soln.ipynb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../[Allen B. Downey] ThinkStats/chap05ex.ipynb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../[Allen B. Downey] ThinkStats/chap05soln.ipynb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../[Allen B. Downey] ThinkStats/chap06ex.ipynb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../[Allen B. Downey] ThinkStats/chap06soln.ipynb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../[Allen B. Downey] ThinkStats/chap06soln.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../[Allen B. Downey] ThinkStats/chap07ex.ipynb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../[Allen B. Downey] ThinkStats/chap07soln.ipynb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../[Allen B. Downey] ThinkStats/chap07soln.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../[Allen B. Downey] ThinkStats/chap08ex.ipynb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../[Allen B. Downey] ThinkStats/chap08soln.ipynb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../[Allen B. Downey] ThinkStats/chap08soln.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../[Allen B. Downey] ThinkStats/chap09ex.ipynb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../[Allen B. Downey] ThinkStats/chap09soln.ipynb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../[Allen B. Downey] ThinkStats/chap09soln.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../[Allen B. Downey] ThinkStats/chap10ex.ipynb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../[Allen B. Downey] ThinkStats/chap10soln.ipynb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../[Allen B. Downey] ThinkStats/chap11ex.ipynb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../[Allen B. Downey] ThinkStats/chap11soln.ipynb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../[Allen B. Downey] ThinkStats/chap12ex.ipynb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../[Allen B. Downey] ThinkStats/chap12soln.ipynb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../[Allen B. Downey] ThinkStats/chap12soln.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../[Allen B. Downey] ThinkStats/chap13ex.ipynb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../[Allen B. Downey] ThinkStats/chap13soln.ipynb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../[Allen B. Downey] ThinkStats/chap13soln.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../[Allen B. Downey] ThinkStats/chap14ex.ipynb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../[Allen B. Downey] ThinkStats/chap14soln.ipynb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../[Allen B. Downey] ThinkStats/chap14soln.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../[Allen B. Downey] ThinkStats/cumulative.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../[Allen B. Downey] ThinkStats/density.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../[Allen B. Downey] ThinkStats/estimation.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../[Allen B. Downey] ThinkStats/first.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../[Allen B. Downey] ThinkStats/hinc.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../[Allen B. Downey] ThinkStats/hinc06.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../[Allen B. Downey] ThinkStats/hinc2.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../[Allen B. Downey] ThinkStats/hinc_soln.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../[Allen B. Downey] ThinkStats/hypothesis.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../[Allen B. Downey] ThinkStats/linear.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../[Allen B. Downey] ThinkStats/mj-clean.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../[Allen B. Downey] ThinkStats/mystery.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../[Allen B. Downey] ThinkStats/mystery0.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../[Allen B. Downey] ThinkStats/mystery1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../[Allen B. Downey] ThinkStats/mystery2.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../[Allen B. Downey] ThinkStats/mystery3.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../[Allen B. Downey] ThinkStats/mystery4.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../[Allen B. Downey] ThinkStats/mystery5.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../[Allen B. Downey] ThinkStats/mystery6.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../[Allen B. Downey] ThinkStats/mystery7.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../[Allen B. Downey] ThinkStats/normal.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../[Allen B. Downey] ThinkStats/nsfg.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../[Allen B. Downey] ThinkStats/nsfg2.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../[Allen B. Downey] ThinkStats/pandas_demos.ipynb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../[Allen B. Downey] ThinkStats/pandas_examples.ipynb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../[Allen B. Downey] ThinkStats/populations.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../[Allen B. Downey] ThinkStats/populations.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../[Allen B. Downey] ThinkStats/probability.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../[Allen B. Downey] ThinkStats/regression.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../[Allen B. Downey] ThinkStats/relay.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../[Allen B. Downey] ThinkStats/relay_soln.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../[Allen B. Downey] ThinkStats/requirements.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../[Allen B. Downey] ThinkStats/scatter.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../[Allen B. Downey] ThinkStats/setup.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../[Allen B. Downey] ThinkStats/survival.ipynb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../[Allen B. Downey] ThinkStats/survival.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../[Allen B. Downey] ThinkStats/survival_test.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../[Allen B. Downey] ThinkStats/test_models.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../[Allen B. Downey] ThinkStats/thinkplot.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../[Allen B. Downey] ThinkStats/thinkplot_test.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../[Allen B. Downey] ThinkStats/thinkstats2.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../[Allen B. Downey] ThinkStats/thinkstats2_test.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../[Allen B. Downey] ThinkStats/timeseries.py" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/part1.ipynb" afterPath="$PROJECT_DIR$/part1.ipynb" />
     </list>
     <ignored path="[Blog]FreqVsBayes.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -140,7 +27,7 @@
         <entry file="file://$PROJECT_DIR$/part1.ipynb">
           <provider selected="true" editor-type-id="ipnb-editor">
             <state>
-              <selected id="10" />
+              <selected id="13" />
             </state>
           </provider>
         </entry>
@@ -179,12 +66,12 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="81" />
     <option name="y" value="24" />
-    <option name="width" value="860" />
+    <option name="width" value="977" />
     <option name="height" value="765" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
+    <navigator proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -197,33 +84,15 @@
       <manualOrder />
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FrequentismVsBayesianism" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FrequentismVersusBayesianism" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="Scratches" />
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="configurable.group.build" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Font" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="js-jscs-nodeInterpreter" value="/usr/bin/node" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
@@ -490,6 +359,7 @@
       <setting name="passParentEnv" value="true" />
       <setting name="launchBrowser" value="true" />
       <setting name="launchBrowserUrl" value="" />
+      <setting name="depsClasspath" value="false" />
       <method />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
@@ -864,15 +734,16 @@
       <workItem from="1497589484074" duration="1323000" />
       <workItem from="1497594798759" duration="113000" />
       <workItem from="1497611363186" duration="1149000" />
-      <workItem from="1497614930105" duration="723000" />
+      <workItem from="1497614930105" duration="1311000" />
+      <workItem from="1497617302788" duration="6597000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7099000" />
+    <option name="totallyTimeSpent" value="14284000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="81" y="24" width="860" height="765" extended-state="4" />
+    <frame x="81" y="24" width="977" height="765" extended-state="4" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -894,7 +765,7 @@
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32911393" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="GhcMod" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
@@ -931,108 +802,31 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/part1.nbconvert.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="-1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/part1.nbconvert.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="-1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/part1.nbconvert.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="-1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/part1.nbconvert.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="-1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/part1.nbconvert.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="-1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/part1.nbconvert.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="-1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/part1.nbconvert.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="-1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/part1.nbconvert.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="-1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/part1.nbconvert.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="-1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/part1.nbconvert.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="-1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/part1.nbconvert.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="-1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/part1.nbconvert.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="-1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/part1.nbconvert.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="-1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/part1.nbconvert.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/part1.ipynb">
       <provider selected="true" editor-type-id="ipnb-editor">
         <state>
-          <selected id="10" />
+          <selected id="-1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/part1.nbconvert.ipynb" />
+    <entry file="file://$PROJECT_DIR$/part1.nbconvert.ipynb" />
+    <entry file="file://$PROJECT_DIR$/part1.nbconvert.ipynb" />
+    <entry file="file://$PROJECT_DIR$/part1.nbconvert.ipynb" />
+    <entry file="file://$PROJECT_DIR$/part1.nbconvert.ipynb" />
+    <entry file="file://$PROJECT_DIR$/part1.nbconvert.ipynb" />
+    <entry file="file://$PROJECT_DIR$/part1.nbconvert.ipynb" />
+    <entry file="file://$PROJECT_DIR$/part1.nbconvert.ipynb" />
+    <entry file="file://$PROJECT_DIR$/part1.nbconvert.ipynb" />
+    <entry file="file://$PROJECT_DIR$/part1.nbconvert.ipynb" />
+    <entry file="file://$PROJECT_DIR$/part1.nbconvert.ipynb" />
+    <entry file="file://$PROJECT_DIR$/part1.nbconvert.ipynb" />
+    <entry file="file://$PROJECT_DIR$/part1.nbconvert.ipynb" />
+    <entry file="file://$PROJECT_DIR$/part1.nbconvert.ipynb" />
+    <entry file="file://$PROJECT_DIR$/part1.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="2" />
         </state>
       </provider>
     </entry>
@@ -1053,7 +847,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>No facets are configured</last-edited>
+          <last-edited>Detection</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1094,7 +888,6 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
