@@ -2,13 +2,185 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1738fb9c-5c92-4c54-ae50-135af7a63aeb" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ThinkBayes/src/jaynes1.pdf" afterPath="$PROJECT_DIR$/../ThinkBayes/src/jaynes1.pdf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ThinkBayes/src/jaynes2.pdf" afterPath="$PROJECT_DIR$/../ThinkBayes/src/jaynes2.pdf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ThinkBayes2" afterPath="$PROJECT_DIR$/../ThinkBayes2" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ThinkBayes/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../ThinkBayes/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ThinkBayes/src/jaynes.py" afterPath="$PROJECT_DIR$/../ThinkBayes/src/jaynes.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ThinkBayes/src/thinkbayes.py" afterPath="$PROJECT_DIR$/../ThinkBayes/src/thinkbayes.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ThinkBayes/src/thinkbayes2.py" afterPath="$PROJECT_DIR$/../ThinkBayes/src/thinkbayes2.py" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ProbabilityDistributionGraphs/.idea/.name" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ProbabilityDistributionGraphs/.idea/GraphingDistributions.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ProbabilityDistributionGraphs/.idea/encodings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ProbabilityDistributionGraphs/.idea/misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ProbabilityDistributionGraphs/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ProbabilityDistributionGraphs/.idea/scopes/scope_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ProbabilityDistributionGraphs/.idea/vcs.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ProbabilityDistributionGraphs/.idea/workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ProbabilityDistributionGraphs/Binomial.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ProbabilityDistributionGraphs/Normal.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ThinkBayes/.cache/v/cache/lastfailed" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ThinkBayes/.idea/.name" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ThinkBayes/.idea/ThinkBayes.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ThinkBayes/.idea/compiler.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ThinkBayes/.idea/copyright/profiles_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ThinkBayes/.idea/encodings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ThinkBayes/.idea/inspectionProfiles/Project_Default.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ThinkBayes/.idea/misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ThinkBayes/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ThinkBayes/.idea/vcs.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ThinkBayes/.idea/workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ThinkBayes/src/.cache/v/cache/lastfailed" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ThinkBayes/src/CDBRFS08.ASC.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ThinkBayes/src/Exercises/Chap1_CookieNoRepl.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ThinkBayes/src/MyIntro/AboutPMF.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ThinkBayes/src/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ThinkBayes/src/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ThinkBayes/src/brfss.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ThinkBayes/src/brfss2.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ThinkBayes/src/columns.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ThinkBayes/src/cookie.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ThinkBayes/src/cookie2.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ThinkBayes/src/correlation.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ThinkBayes/src/dice.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ThinkBayes/src/dungeons.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ThinkBayes/src/euro.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ThinkBayes/src/euro2.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ThinkBayes/src/euro3.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ThinkBayes/src/hockey.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ThinkBayes/src/hockey_data.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ThinkBayes/src/hyrax.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ThinkBayes/src/jaynes.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ThinkBayes/src/jaynes1.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ThinkBayes/src/jaynes2.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ThinkBayes/src/jaynes3.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ThinkBayes/src/journal.pone.0047712.s001.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ThinkBayes/src/kidney.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ThinkBayes/src/kidney1.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ThinkBayes/src/kidney2.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ThinkBayes/src/kidney4.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ThinkBayes/src/kidney5.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ThinkBayes/src/kidney6.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ThinkBayes/src/kidney7.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ThinkBayes/src/kidney8.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ThinkBayes/src/kidney_table.tex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ThinkBayes/src/m_and_m.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ThinkBayes/src/monty.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ThinkBayes/src/monty2.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ThinkBayes/src/myplot.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ThinkBayes/src/paintball.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ThinkBayes/src/price.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ThinkBayes/src/redline.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ThinkBayes/src/redline_data.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ThinkBayes/src/sat.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ThinkBayes/src/sat_1_prior.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ThinkBayes/src/sat_2_calibrate.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ThinkBayes/src/sat_3_posteriors_p_corr.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ThinkBayes/src/sat_4_joint.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ThinkBayes/src/sat_5_posteriors_eff.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ThinkBayes/src/sat_ranks.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ThinkBayes/src/sat_scale.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ThinkBayes/src/showcases.2011.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ThinkBayes/src/showcases.2012.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ThinkBayes/src/species.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ThinkBayes/src/survey.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ThinkBayes/src/thinkbayes.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ThinkBayes/src/thinkbayes2.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ThinkBayes/src/thinkbayes2_yuml.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ThinkBayes/src/thinkplot.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ThinkBayes/src/thinkplot2.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ThinkBayes/src/thinkstats.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ThinkBayes/src/train.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ThinkBayes/src/train2.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ThinkBayes/src/train3.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ThinkBayes/src/variability.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ThinkBayes/src/variability2.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ThinkBayes/src/variability_cv.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ThinkBayes/src/variability_posterior_female.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ThinkBayes/src/variability_posterior_male.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ThinkBayes2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../thinkStatsCode/learningthinkstats/.idea/.name" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../thinkStatsCode/learningthinkstats/.idea/encodings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../thinkStatsCode/learningthinkstats/.idea/inspectionProfiles/Project_Default.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../thinkStatsCode/learningthinkstats/.idea/inspectionProfiles/profiles_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../thinkStatsCode/learningthinkstats/.idea/misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../thinkStatsCode/learningthinkstats/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../thinkStatsCode/learningthinkstats/.idea/scopes/scope_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../thinkStatsCode/learningthinkstats/.idea/thinkstats.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../thinkStatsCode/learningthinkstats/.idea/workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../thinkStatsCode/learningthinkstats/08in11si.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../thinkStatsCode/learningthinkstats/2002FemPreg.dat.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../thinkStatsCode/learningthinkstats/2002FemResp.dat.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../thinkStatsCode/learningthinkstats/2002Male.dat.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../thinkStatsCode/learningthinkstats/CDBRFS08.ASC.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../thinkStatsCode/learningthinkstats/Cdf.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../thinkStatsCode/learningthinkstats/Cdf_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../thinkStatsCode/learningthinkstats/Pmf.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../thinkStatsCode/learningthinkstats/Pmf_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../thinkStatsCode/learningthinkstats/age_lm.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../thinkStatsCode/learningthinkstats/agemodel.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../thinkStatsCode/learningthinkstats/babyboom.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../thinkStatsCode/learningthinkstats/bayes_height.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../thinkStatsCode/learningthinkstats/birthdays.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../thinkStatsCode/learningthinkstats/blinky.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../thinkStatsCode/learningthinkstats/brfss.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../thinkStatsCode/learningthinkstats/brfss_corr.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../thinkStatsCode/learningthinkstats/brfss_figs.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../thinkStatsCode/learningthinkstats/brfss_scatter.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../thinkStatsCode/learningthinkstats/chi.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../thinkStatsCode/learningthinkstats/class_size.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../thinkStatsCode/learningthinkstats/coin.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../thinkStatsCode/learningthinkstats/coin2.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../thinkStatsCode/learningthinkstats/conditional.eps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../thinkStatsCode/learningthinkstats/conditional.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../thinkStatsCode/learningthinkstats/conditional.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../thinkStatsCode/learningthinkstats/continuous.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../thinkStatsCode/learningthinkstats/correlation.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../thinkStatsCode/learningthinkstats/cumulative.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../thinkStatsCode/learningthinkstats/dataforRelay.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../thinkStatsCode/learningthinkstats/decay.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../thinkStatsCode/learningthinkstats/descriptive.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../thinkStatsCode/learningthinkstats/erf.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../thinkStatsCode/learningthinkstats/estimate.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../thinkStatsCode/learningthinkstats/first.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../thinkStatsCode/learningthinkstats/first_exercise1-3.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../thinkStatsCode/learningthinkstats/gini.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../thinkStatsCode/learningthinkstats/histfromlist2-4.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../thinkStatsCode/learningthinkstats/hypothesis.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../thinkStatsCode/learningthinkstats/hypothesis_analytic.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../thinkStatsCode/learningthinkstats/install_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../thinkStatsCode/learningthinkstats/irs.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../thinkStatsCode/learningthinkstats/khan.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../thinkStatsCode/learningthinkstats/locomotive.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../thinkStatsCode/learningthinkstats/mode_exercise2-3.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../thinkStatsCode/learningthinkstats/myplot.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../thinkStatsCode/learningthinkstats/pareto_world.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../thinkStatsCode/learningthinkstats/percentiles3-3.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../thinkStatsCode/learningthinkstats/plottinghists2-5.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../thinkStatsCode/learningthinkstats/pmf_cdf_relay_compare.docx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../thinkStatsCode/learningthinkstats/pmffromlist2-6.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../thinkStatsCode/learningthinkstats/populations.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../thinkStatsCode/learningthinkstats/populations_cdf.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../thinkStatsCode/learningthinkstats/rankit.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../thinkStatsCode/learningthinkstats/relay.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../thinkStatsCode/learningthinkstats/relay_cdf.eps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../thinkStatsCode/learningthinkstats/relay_cdf.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../thinkStatsCode/learningthinkstats/relay_cdf.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../thinkStatsCode/learningthinkstats/relay_normal.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../thinkStatsCode/learningthinkstats/relay_pmf_3-5.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../thinkStatsCode/learningthinkstats/relay_soln.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../thinkStatsCode/learningthinkstats/risk.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../thinkStatsCode/learningthinkstats/sat_exercise.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../thinkStatsCode/learningthinkstats/score_example.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../thinkStatsCode/learningthinkstats/smpexercise3-9.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../thinkStatsCode/learningthinkstats/social.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../thinkStatsCode/learningthinkstats/survey.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../thinkStatsCode/learningthinkstats/thinkstats.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../thinkStatsCode/learningthinkstats/thinkstats2.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../thinkStatsCode/learningthinkstats/thinkstats_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../thinkStatsCode/thinkstatexercises/.idea/.name" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../thinkStatsCode/thinkstatexercises/.idea/encodings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../thinkStatsCode/thinkstatexercises/.idea/misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../thinkStatsCode/thinkstatexercises/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../thinkStatsCode/thinkstatexercises/.idea/scopes/scope_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../thinkStatsCode/thinkstatexercises/.idea/thinkstatexercises.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../thinkStatsCode/thinkstatexercises/.idea/vcs.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../thinkStatsCode/thinkstatexercises/.idea/workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../thinkStatsCode/thinkstatexercises/smpexercise3-9.py" afterPath="" />
     </list>
     <ignored path="[Blog]FreqVsBayes.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -86,7 +258,7 @@
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="configurable.group.build" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../../../bin/python/anaconda3/envs/bayes/bin/python3.6" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../[Allen B. Downey] ThinkBayes 2" />
     <property name="js-jscs-nodeInterpreter" value="/usr/bin/node" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="project.structure.last.edited" value="SDKs" />
@@ -307,16 +479,15 @@
       <workItem from="1497589140307" duration="299000" />
       <workItem from="1497589484074" duration="1323000" />
       <workItem from="1497594798759" duration="113000" />
-      <workItem from="1497611363186" duration="1000" />
+      <workItem from="1497611363186" duration="818000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5228000" />
+    <option name="totallyTimeSpent" value="6045000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="81" y="24" width="979" height="765" extended-state="4" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -327,6 +498,7 @@
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Cabal" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="SBT Execute" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -347,7 +519,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="SBT Execute" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
