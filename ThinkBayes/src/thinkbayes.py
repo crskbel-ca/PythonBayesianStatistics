@@ -1177,7 +1177,7 @@ class Suite(PMF):
         """
         for hypo in self.keys():
             like = self.likelihood(data, hypo)
-            self.mult(hypo, like)
+            self.mult(hypo, like) # updating the hypothesis P(H) by P(D|H) = likelihood, later, norm P(D)
         return self.normalize() # NOTE; different than updateSet() because it normalizes after each updating.
 
     def logUpdate(self, data):
@@ -1574,7 +1574,10 @@ def evalPoissonPmf(k, lmbda):
     # should be 0.0
     # return scipy.stats.poisson.pmf(k, lam)
 
-    return lmbda ** k * math.exp(-lmbda) / math.factorial(k)
+    #return 1.0 * lmbda ** k * math.exp(-lmbda) / math.factorial(k)
+    # todo yay fixed the overflow error! Just use scipy :)
+    pois = scipy.stats.poisson.pmf(k, lmbda)
+    return 0.0 if math.isnan(pois) else pois
 
 
 def makePoissonPmf(lam, high, step=1):

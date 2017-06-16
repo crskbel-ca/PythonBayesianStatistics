@@ -27,7 +27,7 @@ of particles that hit the counter, and $p$, the average rate particles
 are emitted?
 """
 
-FORMATS = ['pdf', 'eps', 'png']
+FORMATS = ['pdf'] # , 'eps', 'png'
 
 class Emitter(thinkbayes.Suite):
     """Represents hypotheses about r."""
@@ -44,9 +44,9 @@ class Emitter(thinkbayes.Suite):
         """Updates the Suite based on data.
         data: number of particles counted
         """
-        thinkbayes.Suite.Update(self, data)
+        thinkbayes.Suite.update(self, data)
 
-        for detector in self.Values():
+        for detector in self.values():
             detector.update()
 
     def likelihood(self, data, hypo):
@@ -58,17 +58,17 @@ class Emitter(thinkbayes.Suite):
             probability density of the data under the hypothesis
         """
         detector = hypo
-        like = detector.SuiteLikelihood(data)
+        like = detector.suiteLikelihood(data)
         return like
 
     def distOfR(self, name=''):
         """Returns the PMF of r."""
-        items = [(detector.r, prob) for detector, prob in self.Items()]
-        return thinkbayes.MakePmfFromItems(items, name=name)
+        items = [(detector.r, prob) for detector, prob in self.items()]
+        return thinkbayes.makePmfFromItems(items, name=name)
 
     def distOfN(self, name=''):
         """Returns the PMF of n."""
-        return thinkbayes.MakeMixture(self, name=name)
+        return thinkbayes.makeMixture(self, name=name)
 
 
 class Emitter2(thinkbayes.Suite):
@@ -94,12 +94,12 @@ class Emitter2(thinkbayes.Suite):
 
     def distOfR(self, name=''):
         """Returns the PMF of r."""
-        items = [(detector.r, prob) for detector, prob in self.Items()]
-        return thinkbayes.MakePmfFromItems(items, name=name)
+        items = [(detector.r, prob) for detector, prob in self.items()]
+        return thinkbayes.makePmfFromItems(items, name=name)
 
     def distOfN(self, name=''):
         """Returns the PMF of n."""
-        return thinkbayes.MakeMixture(self, name=name)
+        return thinkbayes.makeMixture(self, name=name)
 
 
 class Detector(thinkbayes.Suite):
@@ -112,7 +112,7 @@ class Detector(thinkbayes.Suite):
         high: maximum number of particles, n
         step: step size between hypothetical values of n
         """
-        pmf = thinkbayes.MakePoissonPmf(r, high, step=step)
+        pmf = thinkbayes.makePoissonPmf(r, high, step=step)
         thinkbayes.Suite.__init__(self, pmf, name=r)
         self.r = r
         self.f = f
@@ -125,21 +125,22 @@ class Detector(thinkbayes.Suite):
         k = data
         n = hypo
         p = self.f
-
-        return thinkbayes.EvalBinomialPmf(k, n, p)
+        # note: given n particles, p=0.1 single particle hit, what is prob of hitting k=15 particles?
+        return thinkbayes.evalBinomialPmf(k, n, p)
 
     def suiteLikelihood(self, data):
         """Adds up the total probability of the data under the suite.
         data: number of particles counted
         """
         total = 0
-        for hypo, prob in self.Items():
-            like = self.Likelihood(data, hypo)
+        for hypo, prob in self.items():
+            like = self.likelihood(data, hypo)
             total += prob * like
         return total
 
 
 def main():
+    # note: METHOD 1: assume that f = 0.1 is known! ------------------------
     k = 15
     f = 0.1
 
@@ -156,6 +157,8 @@ def main():
                    ylabel='PMF',
                    formats=FORMATS)
 
+
+    # note: METHOD 2: k is unknown. ---------------------------------------
     # plot the posterior distributions of r and n
     hypos = range(1, 501, 5)
     suite = Emitter2(hypos, f=f)
