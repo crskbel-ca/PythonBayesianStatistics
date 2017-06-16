@@ -2,185 +2,121 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1738fb9c-5c92-4c54-ae50-135af7a63aeb" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ProbabilityDistributionGraphs/.idea/.name" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ProbabilityDistributionGraphs/.idea/GraphingDistributions.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ProbabilityDistributionGraphs/.idea/encodings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ProbabilityDistributionGraphs/.idea/misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ProbabilityDistributionGraphs/.idea/modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ProbabilityDistributionGraphs/.idea/scopes/scope_settings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ProbabilityDistributionGraphs/.idea/vcs.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ProbabilityDistributionGraphs/.idea/workspace.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ProbabilityDistributionGraphs/Binomial.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ProbabilityDistributionGraphs/Normal.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ThinkBayes/.cache/v/cache/lastfailed" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ThinkBayes/.idea/.name" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ThinkBayes/.idea/ThinkBayes.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ThinkBayes/.idea/compiler.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ThinkBayes/.idea/copyright/profiles_settings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ThinkBayes/.idea/encodings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ThinkBayes/.idea/inspectionProfiles/Project_Default.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ThinkBayes/.idea/misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ThinkBayes/.idea/modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ThinkBayes/.idea/vcs.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ThinkBayes/.idea/workspace.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ThinkBayes/src/.cache/v/cache/lastfailed" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ThinkBayes/src/CDBRFS08.ASC.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ThinkBayes/src/Exercises/Chap1_CookieNoRepl.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ThinkBayes/src/MyIntro/AboutPMF.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ThinkBayes/src/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ThinkBayes/src/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ThinkBayes/src/brfss.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ThinkBayes/src/brfss2.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ThinkBayes/src/columns.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ThinkBayes/src/cookie.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ThinkBayes/src/cookie2.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ThinkBayes/src/correlation.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ThinkBayes/src/dice.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ThinkBayes/src/dungeons.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ThinkBayes/src/euro.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ThinkBayes/src/euro2.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ThinkBayes/src/euro3.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ThinkBayes/src/hockey.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ThinkBayes/src/hockey_data.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ThinkBayes/src/hyrax.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ThinkBayes/src/jaynes.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ThinkBayes/src/jaynes1.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ThinkBayes/src/jaynes2.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ThinkBayes/src/jaynes3.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ThinkBayes/src/journal.pone.0047712.s001.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ThinkBayes/src/kidney.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ThinkBayes/src/kidney1.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ThinkBayes/src/kidney2.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ThinkBayes/src/kidney4.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ThinkBayes/src/kidney5.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ThinkBayes/src/kidney6.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ThinkBayes/src/kidney7.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ThinkBayes/src/kidney8.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ThinkBayes/src/kidney_table.tex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ThinkBayes/src/m_and_m.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ThinkBayes/src/monty.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ThinkBayes/src/monty2.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ThinkBayes/src/myplot.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ThinkBayes/src/paintball.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ThinkBayes/src/price.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ThinkBayes/src/redline.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ThinkBayes/src/redline_data.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ThinkBayes/src/sat.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ThinkBayes/src/sat_1_prior.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ThinkBayes/src/sat_2_calibrate.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ThinkBayes/src/sat_3_posteriors_p_corr.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ThinkBayes/src/sat_4_joint.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ThinkBayes/src/sat_5_posteriors_eff.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ThinkBayes/src/sat_ranks.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ThinkBayes/src/sat_scale.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ThinkBayes/src/showcases.2011.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ThinkBayes/src/showcases.2012.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ThinkBayes/src/species.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ThinkBayes/src/survey.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ThinkBayes/src/thinkbayes.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ThinkBayes/src/thinkbayes2.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ThinkBayes/src/thinkbayes2_yuml.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ThinkBayes/src/thinkplot.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ThinkBayes/src/thinkplot2.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ThinkBayes/src/thinkstats.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ThinkBayes/src/train.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ThinkBayes/src/train2.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ThinkBayes/src/train3.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ThinkBayes/src/variability.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ThinkBayes/src/variability2.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ThinkBayes/src/variability_cv.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ThinkBayes/src/variability_posterior_female.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ThinkBayes/src/variability_posterior_male.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ThinkBayes2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../thinkStatsCode/learningthinkstats/.idea/.name" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../thinkStatsCode/learningthinkstats/.idea/encodings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../thinkStatsCode/learningthinkstats/.idea/inspectionProfiles/Project_Default.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../thinkStatsCode/learningthinkstats/.idea/inspectionProfiles/profiles_settings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../thinkStatsCode/learningthinkstats/.idea/misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../thinkStatsCode/learningthinkstats/.idea/modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../thinkStatsCode/learningthinkstats/.idea/scopes/scope_settings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../thinkStatsCode/learningthinkstats/.idea/thinkstats.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../thinkStatsCode/learningthinkstats/.idea/workspace.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../thinkStatsCode/learningthinkstats/08in11si.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../thinkStatsCode/learningthinkstats/2002FemPreg.dat.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../thinkStatsCode/learningthinkstats/2002FemResp.dat.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../thinkStatsCode/learningthinkstats/2002Male.dat.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../thinkStatsCode/learningthinkstats/CDBRFS08.ASC.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../thinkStatsCode/learningthinkstats/Cdf.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../thinkStatsCode/learningthinkstats/Cdf_test.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../thinkStatsCode/learningthinkstats/Pmf.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../thinkStatsCode/learningthinkstats/Pmf_test.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../thinkStatsCode/learningthinkstats/age_lm.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../thinkStatsCode/learningthinkstats/agemodel.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../thinkStatsCode/learningthinkstats/babyboom.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../thinkStatsCode/learningthinkstats/bayes_height.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../thinkStatsCode/learningthinkstats/birthdays.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../thinkStatsCode/learningthinkstats/blinky.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../thinkStatsCode/learningthinkstats/brfss.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../thinkStatsCode/learningthinkstats/brfss_corr.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../thinkStatsCode/learningthinkstats/brfss_figs.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../thinkStatsCode/learningthinkstats/brfss_scatter.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../thinkStatsCode/learningthinkstats/chi.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../thinkStatsCode/learningthinkstats/class_size.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../thinkStatsCode/learningthinkstats/coin.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../thinkStatsCode/learningthinkstats/coin2.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../thinkStatsCode/learningthinkstats/conditional.eps" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../thinkStatsCode/learningthinkstats/conditional.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../thinkStatsCode/learningthinkstats/conditional.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../thinkStatsCode/learningthinkstats/continuous.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../thinkStatsCode/learningthinkstats/correlation.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../thinkStatsCode/learningthinkstats/cumulative.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../thinkStatsCode/learningthinkstats/dataforRelay.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../thinkStatsCode/learningthinkstats/decay.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../thinkStatsCode/learningthinkstats/descriptive.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../thinkStatsCode/learningthinkstats/erf.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../thinkStatsCode/learningthinkstats/estimate.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../thinkStatsCode/learningthinkstats/first.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../thinkStatsCode/learningthinkstats/first_exercise1-3.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../thinkStatsCode/learningthinkstats/gini.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../thinkStatsCode/learningthinkstats/histfromlist2-4.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../thinkStatsCode/learningthinkstats/hypothesis.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../thinkStatsCode/learningthinkstats/hypothesis_analytic.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../thinkStatsCode/learningthinkstats/install_test.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../thinkStatsCode/learningthinkstats/irs.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../thinkStatsCode/learningthinkstats/khan.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../thinkStatsCode/learningthinkstats/locomotive.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../thinkStatsCode/learningthinkstats/mode_exercise2-3.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../thinkStatsCode/learningthinkstats/myplot.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../thinkStatsCode/learningthinkstats/pareto_world.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../thinkStatsCode/learningthinkstats/percentiles3-3.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../thinkStatsCode/learningthinkstats/plottinghists2-5.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../thinkStatsCode/learningthinkstats/pmf_cdf_relay_compare.docx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../thinkStatsCode/learningthinkstats/pmffromlist2-6.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../thinkStatsCode/learningthinkstats/populations.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../thinkStatsCode/learningthinkstats/populations_cdf.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../thinkStatsCode/learningthinkstats/rankit.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../thinkStatsCode/learningthinkstats/relay.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../thinkStatsCode/learningthinkstats/relay_cdf.eps" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../thinkStatsCode/learningthinkstats/relay_cdf.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../thinkStatsCode/learningthinkstats/relay_cdf.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../thinkStatsCode/learningthinkstats/relay_normal.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../thinkStatsCode/learningthinkstats/relay_pmf_3-5.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../thinkStatsCode/learningthinkstats/relay_soln.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../thinkStatsCode/learningthinkstats/risk.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../thinkStatsCode/learningthinkstats/sat_exercise.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../thinkStatsCode/learningthinkstats/score_example.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../thinkStatsCode/learningthinkstats/smpexercise3-9.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../thinkStatsCode/learningthinkstats/social.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../thinkStatsCode/learningthinkstats/survey.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../thinkStatsCode/learningthinkstats/thinkstats.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../thinkStatsCode/learningthinkstats/thinkstats2.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../thinkStatsCode/learningthinkstats/thinkstats_test.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../thinkStatsCode/thinkstatexercises/.idea/.name" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../thinkStatsCode/thinkstatexercises/.idea/encodings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../thinkStatsCode/thinkstatexercises/.idea/misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../thinkStatsCode/thinkstatexercises/.idea/modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../thinkStatsCode/thinkstatexercises/.idea/scopes/scope_settings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../thinkStatsCode/thinkstatexercises/.idea/thinkstatexercises.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../thinkStatsCode/thinkstatexercises/.idea/vcs.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../thinkStatsCode/thinkstatexercises/.idea/workspace.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../thinkStatsCode/thinkstatexercises/smpexercise3-9.py" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/part1.ipynb" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/part1.nbconvert.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../[Allen B. Downey] ThinkStats/1982NSFGData.dat.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../[Allen B. Downey] ThinkStats/1995FemRespData.dat.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../[Allen B. Downey] ThinkStats/2002FemPreg.dat.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../[Allen B. Downey] ThinkStats/2002FemPreg.dct" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../[Allen B. Downey] ThinkStats/2002FemResp.dat.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../[Allen B. Downey] ThinkStats/2002FemResp.dct" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../[Allen B. Downey] ThinkStats/2002Male.dat.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../[Allen B. Downey] ThinkStats/2002Male.dct" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../[Allen B. Downey] ThinkStats/2006_2010_FemPreg.dat.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../[Allen B. Downey] ThinkStats/2006_2010_FemPregSetup.dct" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../[Allen B. Downey] ThinkStats/2006_2010_FemResp.dat.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../[Allen B. Downey] ThinkStats/2006_2010_FemRespSetup.dct" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../[Allen B. Downey] ThinkStats/2006_2010_Male.dat.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../[Allen B. Downey] ThinkStats/2006_2010_MaleSetup.dct" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../[Allen B. Downey] ThinkStats/2011_2013_FemPregData.dat.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../[Allen B. Downey] ThinkStats/2011_2013_FemPregSetup.dct" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../[Allen B. Downey] ThinkStats/2011_2013_FemRespData.dat.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../[Allen B. Downey] ThinkStats/2011_2013_FemRespSetup.dct" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../[Allen B. Downey] ThinkStats/2011_2013_MaleData.dat.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../[Allen B. Downey] ThinkStats/2011_2013_MaleSetup.dct" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../[Allen B. Downey] ThinkStats/Apr25_27thAn_set1.shtml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../[Allen B. Downey] ThinkStats/CDBRFS08.ASC.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../[Allen B. Downey] ThinkStats/CDBRFS08ASC.ZIP" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../[Allen B. Downey] ThinkStats/Makefile" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../[Allen B. Downey] ThinkStats/PEP_2012_PEPANNRES_metadata.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../[Allen B. Downey] ThinkStats/PEP_2012_PEPANNRES_with_ann.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../[Allen B. Downey] ThinkStats/analytic.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../[Allen B. Downey] ThinkStats/babyboom.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../[Allen B. Downey] ThinkStats/brfss.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../[Allen B. Downey] ThinkStats/chap01ex.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../[Allen B. Downey] ThinkStats/chap01ex.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../[Allen B. Downey] ThinkStats/chap01soln.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../[Allen B. Downey] ThinkStats/chap01soln.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../[Allen B. Downey] ThinkStats/chap02ex.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../[Allen B. Downey] ThinkStats/chap02ex.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../[Allen B. Downey] ThinkStats/chap02soln.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../[Allen B. Downey] ThinkStats/chap02soln.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../[Allen B. Downey] ThinkStats/chap03ex.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../[Allen B. Downey] ThinkStats/chap03soln.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../[Allen B. Downey] ThinkStats/chap03soln.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../[Allen B. Downey] ThinkStats/chap04ex.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../[Allen B. Downey] ThinkStats/chap04soln.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../[Allen B. Downey] ThinkStats/chap05ex.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../[Allen B. Downey] ThinkStats/chap05soln.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../[Allen B. Downey] ThinkStats/chap06ex.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../[Allen B. Downey] ThinkStats/chap06soln.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../[Allen B. Downey] ThinkStats/chap06soln.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../[Allen B. Downey] ThinkStats/chap07ex.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../[Allen B. Downey] ThinkStats/chap07soln.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../[Allen B. Downey] ThinkStats/chap07soln.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../[Allen B. Downey] ThinkStats/chap08ex.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../[Allen B. Downey] ThinkStats/chap08soln.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../[Allen B. Downey] ThinkStats/chap08soln.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../[Allen B. Downey] ThinkStats/chap09ex.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../[Allen B. Downey] ThinkStats/chap09soln.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../[Allen B. Downey] ThinkStats/chap09soln.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../[Allen B. Downey] ThinkStats/chap10ex.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../[Allen B. Downey] ThinkStats/chap10soln.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../[Allen B. Downey] ThinkStats/chap11ex.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../[Allen B. Downey] ThinkStats/chap11soln.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../[Allen B. Downey] ThinkStats/chap12ex.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../[Allen B. Downey] ThinkStats/chap12soln.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../[Allen B. Downey] ThinkStats/chap12soln.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../[Allen B. Downey] ThinkStats/chap13ex.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../[Allen B. Downey] ThinkStats/chap13soln.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../[Allen B. Downey] ThinkStats/chap13soln.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../[Allen B. Downey] ThinkStats/chap14ex.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../[Allen B. Downey] ThinkStats/chap14soln.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../[Allen B. Downey] ThinkStats/chap14soln.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../[Allen B. Downey] ThinkStats/cumulative.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../[Allen B. Downey] ThinkStats/density.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../[Allen B. Downey] ThinkStats/estimation.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../[Allen B. Downey] ThinkStats/first.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../[Allen B. Downey] ThinkStats/hinc.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../[Allen B. Downey] ThinkStats/hinc06.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../[Allen B. Downey] ThinkStats/hinc2.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../[Allen B. Downey] ThinkStats/hinc_soln.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../[Allen B. Downey] ThinkStats/hypothesis.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../[Allen B. Downey] ThinkStats/linear.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../[Allen B. Downey] ThinkStats/mj-clean.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../[Allen B. Downey] ThinkStats/mystery.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../[Allen B. Downey] ThinkStats/mystery0.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../[Allen B. Downey] ThinkStats/mystery1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../[Allen B. Downey] ThinkStats/mystery2.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../[Allen B. Downey] ThinkStats/mystery3.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../[Allen B. Downey] ThinkStats/mystery4.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../[Allen B. Downey] ThinkStats/mystery5.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../[Allen B. Downey] ThinkStats/mystery6.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../[Allen B. Downey] ThinkStats/mystery7.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../[Allen B. Downey] ThinkStats/normal.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../[Allen B. Downey] ThinkStats/nsfg.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../[Allen B. Downey] ThinkStats/nsfg2.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../[Allen B. Downey] ThinkStats/pandas_demos.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../[Allen B. Downey] ThinkStats/pandas_examples.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../[Allen B. Downey] ThinkStats/populations.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../[Allen B. Downey] ThinkStats/populations.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../[Allen B. Downey] ThinkStats/probability.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../[Allen B. Downey] ThinkStats/regression.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../[Allen B. Downey] ThinkStats/relay.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../[Allen B. Downey] ThinkStats/relay_soln.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../[Allen B. Downey] ThinkStats/requirements.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../[Allen B. Downey] ThinkStats/scatter.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../[Allen B. Downey] ThinkStats/setup.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../[Allen B. Downey] ThinkStats/survival.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../[Allen B. Downey] ThinkStats/survival.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../[Allen B. Downey] ThinkStats/survival_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../[Allen B. Downey] ThinkStats/test_models.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../[Allen B. Downey] ThinkStats/thinkplot.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../[Allen B. Downey] ThinkStats/thinkplot_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../[Allen B. Downey] ThinkStats/thinkstats2.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../[Allen B. Downey] ThinkStats/thinkstats2_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../[Allen B. Downey] ThinkStats/timeseries.py" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="[Blog]FreqVsBayes.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -200,8 +136,8 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="part1.nbconvert.ipynb" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/part1.nbconvert.ipynb">
+      <file leaf-file-name="part1.ipynb" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/part1.ipynb">
           <provider selected="true" editor-type-id="ipnb-editor">
             <state>
               <selected id="10" />
@@ -210,6 +146,13 @@
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Jupyter Notebook" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -223,6 +166,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/part1.nbconvert.ipynb" />
+        <option value="$PROJECT_DIR$/part1.ipynb" />
       </list>
     </option>
   </component>
@@ -235,12 +179,12 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="81" />
     <option name="y" value="24" />
-    <option name="width" value="979" />
+    <option name="width" value="860" />
     <option name="height" value="765" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
-    <navigator proportions="" version="1">
+    <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -253,12 +197,30 @@
       <manualOrder />
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FrequentismVsBayesianism" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FrequentismVersusBayesianism" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="Scratches" />
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="configurable.group.build" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../[Allen B. Downey] ThinkBayes 2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="js-jscs-nodeInterpreter" value="/usr/bin/node" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="project.structure.last.edited" value="SDKs" />
@@ -278,6 +240,165 @@
     </option>
   </component>
   <component name="RunManager">
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android App">
+      <module name="" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <Java />
+      <Profilers>
+        <option name="ENABLE_ADVANCED_PROFILING" value="true" />
+        <option name="GAPID_ENABLED" value="false" />
+        <option name="GAPID_DISABLE_PCS" value="false" />
+        <option name="SUPPORT_LIB_ENABLED" value="true" />
+        <option name="INSTRUMENTATION_ENABLED" value="true" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="EXTRA_OPTIONS" value="" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <Java />
+      <Profilers>
+        <option name="ENABLE_ADVANCED_PROFILING" value="true" />
+        <option name="GAPID_ENABLED" value="false" />
+        <option name="GAPID_DISABLE_PCS" value="false" />
+        <option name="SUPPORT_LIB_ENABLED" value="true" />
+        <option name="INSTRUMENTATION_ENABLED" value="true" />
+      </Profilers>
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="CabalRunConfiguration" factoryName="Haskell">
+      <module name="" />
+      <setting name="executableName" value="" />
+      <setting name="parameters" value="" />
+      <setting name="workingDir" value="" />
+      <environmetVariables />
+      <method />
+    </configuration>
+    <configuration default="true" type="Cold Fusion runner description" factoryName="Cold Fusion" custom_browser="" web_path="">
+      <method />
+    </configuration>
+    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="myFilePath" />
+      <option name="GLUE" />
+      <option name="myNameFilter" />
+      <option name="myGeneratedName" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
     <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -298,7 +419,160 @@
       <option name="OPTIONS" value="" />
       <method />
     </configuration>
+    <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
+      <option name="BCName" value="" />
+      <option name="IOSSimulatorSdkPath" value="" />
+      <option name="adlOptions" value="" />
+      <option name="airProgramParameters" value="" />
+      <option name="appDescriptorForEmulator" value="Android" />
+      <option name="debugTransport" value="USB" />
+      <option name="debuggerSdkRaw" value="BC SDK" />
+      <option name="emulator" value="NexusOne" />
+      <option name="emulatorAdlOptions" value="" />
+      <option name="fastPackaging" value="true" />
+      <option name="fullScreenHeight" value="0" />
+      <option name="fullScreenWidth" value="0" />
+      <option name="launchUrl" value="false" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="/usr/bin/flashplayerdebugger" />
+        </LauncherParameters>
+      </option>
+      <option name="mobileRunTarget" value="Emulator" />
+      <option name="moduleName" value="" />
+      <option name="overriddenMainClass" value="" />
+      <option name="overriddenOutputFileName" value="" />
+      <option name="overrideMainClass" value="false" />
+      <option name="runTrusted" value="true" />
+      <option name="screenDpi" value="0" />
+      <option name="screenHeight" value="0" />
+      <option name="screenWidth" value="0" />
+      <option name="url" value="http://" />
+      <option name="usbDebugPort" value="7936" />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" package_name="" scope="Class">
+      <option name="BCName" value="" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="/usr/bin/flashplayerdebugger" />
+        </LauncherParameters>
+      </option>
+      <option name="moduleName" value="" />
+      <option name="trusted" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
+      <setting name="vmparams" value="" />
+      <setting name="cmdLine" value="run-app" />
+      <setting name="passParentEnv" value="true" />
+      <setting name="launchBrowser" value="true" />
+      <setting name="launchBrowserUrl" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="JarApplication" factoryName="JAR Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Java Scratch" factoryName="Java Scratch">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SCRATCH_FILE_ID" value="0" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
+      <node-interpreter value="project" />
+      <working-dir value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="FrequentismVsBayesianism" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="PyBehaveRunConfigurationType" factoryName="Behave">
@@ -348,6 +622,91 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <method />
     </configuration>
+    <configuration default="true" type="ScalaTestRunConfiguration" factoryName="ScalaTest">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <setting name="path" value="" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="" />
+      <setting name="testKind" value="Class" />
+      <setting name="showProgressMessages" value="true" />
+      <setting name="useSbt" value="false" />
+      <setting name="useUiWithSbt" value="false" />
+      <classRegexps />
+      <testRegexps />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Specs2RunConfiguration" factoryName="Specs2">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <setting name="path" value="" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="" />
+      <setting name="testKind" value="Class" />
+      <setting name="showProgressMessages" value="true" />
+      <setting name="useSbt" value="false" />
+      <setting name="useUiWithSbt" value="false" />
+      <classRegexps />
+      <testRegexps />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <module name="FrequentismVsBayesianism" />
+      <method />
+    </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
       <node-interpreter>project</node-interpreter>
       <node-options />
@@ -362,6 +721,12 @@
       <scripts />
       <node-interpreter value="project" />
       <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="osgi.bnd.run" factoryName="Run Launcher">
+      <method />
+    </configuration>
+    <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
       <method />
     </configuration>
     <configuration default="true" type="tests" factoryName="Doctests">
@@ -434,6 +799,25 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method />
     </configuration>
+    <configuration default="true" type="uTestRunConfiguration" factoryName="utest">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <setting name="path" value="" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="" />
+      <setting name="testKind" value="Class" />
+      <setting name="showProgressMessages" value="true" />
+      <setting name="useSbt" value="false" />
+      <setting name="useUiWithSbt" value="false" />
+      <classRegexps />
+      <testRegexps />
+      <envs />
+      <method />
+    </configuration>
     <configuration default="true" type="tests" factoryName="Attests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -479,15 +863,17 @@
       <workItem from="1497589140307" duration="299000" />
       <workItem from="1497589484074" duration="1323000" />
       <workItem from="1497594798759" duration="113000" />
-      <workItem from="1497611363186" duration="818000" />
+      <workItem from="1497611363186" duration="1149000" />
+      <workItem from="1497614930105" duration="723000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6045000" />
+    <option name="totallyTimeSpent" value="7099000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="81" y="24" width="979" height="765" extended-state="4" />
+    <frame x="81" y="24" width="860" height="765" extended-state="4" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -512,7 +898,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="GhcMod" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24914089" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24812031" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -632,6 +1018,20 @@
     <entry file="file://$PROJECT_DIR$/part1.nbconvert.ipynb">
       <provider selected="true" editor-type-id="ipnb-editor">
         <state>
+          <selected id="-1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/part1.nbconvert.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/part1.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
           <selected id="10" />
         </state>
       </provider>
@@ -694,6 +1094,7 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
