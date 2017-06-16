@@ -280,6 +280,9 @@ class _DictWrapper(object):
         """
         return self.d.keys()
 
+    def values(self):
+        return self.d.values() # note: added by me
+
     def items(self):
         """Gets an unsorted sequence of (value, freq/prob) pairs."""
         return self.d.items()
@@ -574,7 +577,7 @@ class PMF(_DictWrapper):
 
         Returns: float probability
         """
-        prob, val = max((prob, val) for val, prob in self.items())
+        prob, val = max((prob, val) for val, prob in self.items())  # max of generator.
         return val
 
     def credibleInterval(self, percentage=90):
@@ -1176,7 +1179,7 @@ class Suite(PMF):
         returns: the normalizing constant
         """
         for hypo in self.keys():
-            like = self.likelihood(data, hypo)
+            like = self.likelihood(data, hypo) # (k, n) => bin(n, k, p) => P(D=15 | H=(n=18,p=0.1))
             self.mult(hypo, like) # updating the hypothesis P(H) by P(D|H) = likelihood, later, norm P(D)
         return self.normalize() # NOTE; different than updateSet() because it normalizes after each updating.
 

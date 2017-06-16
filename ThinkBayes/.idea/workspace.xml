@@ -2,17 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="74738c3f-df0e-4bb7-a5f3-42f32b89a500" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../FrequentismVersusBayesianism/.idea/[Blog]FreqVsBayes.iml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/jaynes1.pdf" afterPath="$PROJECT_DIR$/src/jaynes1.pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/jaynes2.pdf" afterPath="$PROJECT_DIR$/src/jaynes2.pdf" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ThinkBayes2" afterPath="$PROJECT_DIR$/../ThinkBayes2" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../FrequentismVersusBayesianism/.idea/.name" afterPath="$PROJECT_DIR$/../FrequentismVersusBayesianism/.idea/.name" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../FrequentismVersusBayesianism/.idea/misc.xml" afterPath="$PROJECT_DIR$/../FrequentismVersusBayesianism/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../FrequentismVersusBayesianism/.idea/modules.xml" afterPath="$PROJECT_DIR$/../FrequentismVersusBayesianism/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../FrequentismVersusBayesianism/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../FrequentismVersusBayesianism/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../FrequentismVersusBayesianism/part1.nbconvert.ipynb" afterPath="$PROJECT_DIR$/../FrequentismVersusBayesianism/part1.nbconvert.ipynb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/jaynes.py" afterPath="$PROJECT_DIR$/src/jaynes.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/thinkbayes.py" afterPath="$PROJECT_DIR$/src/thinkbayes.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/thinkbayes2.py" afterPath="$PROJECT_DIR$/src/thinkbayes2.py" />
     </list>
     <ignored path="ThinkBayes.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,7 +20,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/ThinkBayes$jaynes.coverage" NAME="jaynes Coverage Results" MODIFIED="1497596999680" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/ThinkBayes$jaynes.coverage" NAME="jaynes Coverage Results" MODIFIED="1497608802436" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
     <SUITE FILE_PATH="coverage/ThinkBayes$euro.coverage" NAME="euro Coverage Results" MODIFIED="1497336251936" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
     <SUITE FILE_PATH="coverage/ThinkBayes$thinkplot.coverage" NAME="thinkplot Coverage Results" MODIFIED="1491467897163" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ThinkBayes$redline.coverage" NAME="redline Coverage Results" MODIFIED="1491397321402" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -77,21 +72,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="jaynes.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="jaynes.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/jaynes.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="127">
-              <caret line="152" column="0" lean-forward="false" selection-start-line="152" selection-start-column="0" selection-end-line="152" selection-end-column="0" />
+            <state relative-caret-position="221">
+              <caret line="127" column="18" lean-forward="false" selection-start-line="127" selection-start-column="18" selection-end-line="127" selection-end-column="18" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="thinkbayes.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="thinkbayes.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/thinkbayes.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="93">
-              <caret line="576" column="0" lean-forward="false" selection-start-line="576" selection-start-column="0" selection-end-line="576" selection-end-column="0" />
+              <caret line="1180" column="0" lean-forward="false" selection-start-line="1180" selection-start-column="0" selection-end-line="1180" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -108,11 +103,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>Name</find>
-      <find>writing</find>
-      <find>sat_joint</find>
-      <find>sat_posteriors_eff</find>
-      <find>calibriate</find>
       <find>if construcot</find>
       <find>5_sat</find>
       <find>sat_1_</find>
@@ -138,6 +128,11 @@
       <find>correlatedgenerator</find>
       <find>uncorrelated</find>
       <find>probolder</find>
+      <find>def normali</find>
+      <find>def normalize</find>
+      <find>class dete</find>
+      <find>class _dict</find>
+      <find>added by me</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -198,8 +193,9 @@
         <option value="$PROJECT_DIR$/src/thinkplot.py" />
         <option value="$PROJECT_DIR$/src/kidney.py" />
         <option value="$PROJECT_DIR$/src/temp.py" />
-        <option value="$PROJECT_DIR$/src/jaynes.py" />
         <option value="$PROJECT_DIR$/src/thinkbayes.py" />
+        <option value="$PROJECT_DIR$/src/thinkbayes2.py" />
+        <option value="$PROJECT_DIR$/src/jaynes.py" />
       </list>
     </option>
   </component>
@@ -875,7 +871,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="preferences.toDoOptions" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js-jscs-nodeInterpreter" value="/usr/bin/node" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../FrequentismVersusBayesianism" />
@@ -1648,7 +1644,7 @@
       <workItem from="1497545320527" duration="1100000" />
       <workItem from="1497549238702" duration="62000" />
       <workItem from="1497589511062" duration="2893000" />
-      <workItem from="1497594922026" duration="2988000" />
+      <workItem from="1497594922026" duration="10548000" />
     </task>
     <servers />
   </component>
@@ -1685,7 +1681,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41341000" />
+    <option name="totallyTimeSpent" value="48901000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1713,7 +1709,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.46518987" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.46518987" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934132" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1886,13 +1882,18 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/src/jaynes.py</url>
-          <line>147</line>
-          <option name="timeStamp" value="297" />
+          <line>164</line>
+          <option name="timeStamp" value="317" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/src/thinkbayes.py</url>
-          <line>1594</line>
-          <option name="timeStamp" value="298" />
+          <url>file://$PROJECT_DIR$/src/jaynes.py</url>
+          <line>167</line>
+          <option name="timeStamp" value="324" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/jaynes.py</url>
+          <line>185</line>
+          <option name="timeStamp" value="337" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
@@ -1902,12 +1903,13 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="302" />
+      <option name="time" value="341" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="PythonConfigurationType">
         <watch expression="self.d.get(x, 0)" />
         <watch expression="self.d.get(x, 0) * factor" />
+        <watch expression="rs" />
       </configuration>
     </watches-manager>
   </component>
@@ -1916,14 +1918,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/monty.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="51" column="42" lean-forward="false" selection-start-line="51" selection-start-column="42" selection-end-line="51" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/monty2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -2115,13 +2109,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/thinkbayes2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="2154" column="12" lean-forward="false" selection-start-line="2154" selection-start-column="12" selection-end-line="2154" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/variability2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="385">
@@ -2229,13 +2216,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/thinkplot.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6902">
-          <caret line="409" column="0" lean-forward="false" selection-start-line="409" selection-start-column="0" selection-end-line="409" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/correlation.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1850">
@@ -2274,10 +2254,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/jaynes.py">
+    <entry file="file://$PROJECT_DIR$/src/thinkplot.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="152" column="0" lean-forward="false" selection-start-line="152" selection-start-column="0" selection-end-line="152" selection-end-column="0" />
+        <state relative-caret-position="154">
+          <caret line="205" column="0" lean-forward="false" selection-start-line="205" selection-start-column="0" selection-end-line="205" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/lib/python3/dist-packages/apport_python_hook.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="103">
+          <caret line="46" column="0" lean-forward="false" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/thinkbayes2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="3114" column="0" lean-forward="false" selection-start-line="3114" selection-start-column="0" selection-end-line="3114" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -2285,7 +2281,15 @@
     <entry file="file://$PROJECT_DIR$/src/thinkbayes.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="93">
-          <caret line="576" column="0" lean-forward="false" selection-start-line="576" selection-start-column="0" selection-end-line="576" selection-end-column="0" />
+          <caret line="1180" column="0" lean-forward="false" selection-start-line="1180" selection-start-column="0" selection-end-line="1180" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/jaynes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="127" column="18" lean-forward="false" selection-start-line="127" selection-start-column="18" selection-end-line="127" selection-end-column="18" />
           <folding />
         </state>
       </provider>

@@ -29,7 +29,7 @@ are emitted?
 
 FORMATS = ['pdf'] # , 'eps', 'png'
 
-class Emitter(thinkbayes.Suite):
+class Emitter(thinkbayes.Suite): # note: meta suite: contains detectors mapped to probabilities (0.01 initially)
     """Represents hypotheses about r."""
 
     def __init__(self, rs, f=0.1):
@@ -38,16 +38,16 @@ class Emitter(thinkbayes.Suite):
         f: fraction of particles registered
         """
         detectors = [Detector(r, f) for r in rs]
-        thinkbayes.Suite.__init__(self, detectors)
+        thinkbayes.Suite.__init__(self, detectors) # and normalizes all 100 of the detectors (0.01)
 
     def update(self, data):
         """Updates the Suite based on data.
         data: number of particles counted
         """
-        thinkbayes.Suite.update(self, data)
+        thinkbayes.Suite.update(self, data) # note: updating meta pmf
 
-        for detector in self.values():
-            detector.update()
+        for detector in self.keys(): # note changed from values to keys, since detectors are keys.
+            detector.update(data) # note: updating each detector pmf in turn.
 
     def likelihood(self, data, hypo):
         """Likelihood of the data given the hypothesis.
@@ -91,6 +91,7 @@ class Emitter2(thinkbayes.Suite):
             probability density of the data under the hypothesis
         """
         return hypo.update(data)
+        # note: hypo=detector pmf (goes into update of suite, so same thing achieved as Emitter's update)
 
     def distOfR(self, name=''):
         """Returns the PMF of r."""
@@ -102,7 +103,7 @@ class Emitter2(thinkbayes.Suite):
         return thinkbayes.makeMixture(self, name=name)
 
 
-class Detector(thinkbayes.Suite):
+class Detector(thinkbayes.Suite): # note: Detector is suite is pmf
     """Represents hypotheses about n."""
 
     def __init__(self, r, f, high=500, step=5):
@@ -114,8 +115,8 @@ class Detector(thinkbayes.Suite):
         """
         pmf = thinkbayes.makePoissonPmf(r, high, step=step)
         thinkbayes.Suite.__init__(self, pmf, name=r)
-        self.r = r
-        self.f = f
+        self.r = r # the emission rate, (changes)
+        self.f = f # fraction of particles hit (always 0.1)
 
     def likelihood(self, data, hypo):
         """Likelihood of the data given the hypothesis.
@@ -135,7 +136,7 @@ class Detector(thinkbayes.Suite):
         total = 0
         for hypo, prob in self.items():
             like = self.likelihood(data, hypo)
-            total += prob * like
+            total += prob * like # todo: is this sort of a mixture probability?
         return total
 
 
@@ -161,7 +162,7 @@ def main():
     # note: METHOD 2: k is unknown. ---------------------------------------
     # plot the posterior distributions of r and n
     hypos = range(1, 501, 5)
-    suite = Emitter2(hypos, f=f)
+    suite = Emitter(hypos, f=f)
     suite.update(k)
 
     thinkplot.prePlot(num=2)
@@ -176,6 +177,23 @@ def main():
                    ylabel='PMF',
                    formats=FORMATS)
 
+
+    # note: BUILDING ON 2: optimization in Emitter's likelihood.
+    hypos = range(1, 501, 5)
+    suite = Emitter2(hypos, f=f)
+    suite.update(k)
+
+    thinkplot.prePlot(num=2)
+    post_r = suite.distOfR(name='posterior r')
+    post_n = suite.distOfN(name='posterior n')
+
+    thinkplot.pmf(post_r)
+    thinkplot.pmf(post_n)
+
+    thinkplot.save(root='jaynes3',
+                   xlabel='Emission rate',
+                   ylabel='PMF',
+                   formats=FORMATS)
 
 if __name__ == '__main__':
     main()
