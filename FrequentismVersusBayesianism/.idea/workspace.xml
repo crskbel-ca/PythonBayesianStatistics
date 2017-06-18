@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1738fb9c-5c92-4c54-ae50-135af7a63aeb" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/part1_practical_intro.ipynb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/part2_when_results_differ.ipynb" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/part1.ipynb" afterPath="" />
-    </list>
+    <list default="true" id="1738fb9c-5c92-4c54-ae50-135af7a63aeb" name="Default" comment="" />
     <ignored path="[Blog]FreqVsBayes.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -54,9 +50,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/part1.nbconvert.ipynb" />
-        <option value="$PROJECT_DIR$/part2_when_results_differ.ipynb" />
         <option value="$PROJECT_DIR$/part1.ipynb" />
         <option value="$PROJECT_DIR$/part1_practical_intro.ipynb" />
+        <option value="$PROJECT_DIR$/part2_when_results_differ.ipynb" />
       </list>
     </option>
   </component>
@@ -760,12 +756,12 @@
       <workItem from="1497789851830" duration="269000" />
       <workItem from="1497790163092" duration="103000" />
       <workItem from="1497790331224" duration="62000" />
-      <workItem from="1497790475744" duration="5728000" />
+      <workItem from="1497790475744" duration="6314000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21044000" />
+    <option name="totallyTimeSpent" value="21630000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="81" y="24" width="937" height="765" extended-state="4" />
