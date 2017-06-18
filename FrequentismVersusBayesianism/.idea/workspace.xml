@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1738fb9c-5c92-4c54-ae50-135af7a63aeb" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/part1.ipynb" afterPath="$PROJECT_DIR$/part1.ipynb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/part1_practical_intro.ipynb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/part2_when_results_differ.ipynb" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/part1.ipynb" afterPath="" />
     </list>
     <ignored path="[Blog]FreqVsBayes.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -24,11 +24,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="part1.ipynb" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/part1.ipynb">
+      <file leaf-file-name="part2_when_results_differ.ipynb" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/part2_when_results_differ.ipynb">
           <provider selected="true" editor-type-id="ipnb-editor">
             <state>
-              <selected id="13" />
+              <selected id="-1" />
             </state>
           </provider>
         </entry>
@@ -54,7 +54,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/part1.nbconvert.ipynb" />
+        <option value="$PROJECT_DIR$/part2_when_results_differ.ipynb" />
         <option value="$PROJECT_DIR$/part1.ipynb" />
+        <option value="$PROJECT_DIR$/part1_practical_intro.ipynb" />
       </list>
     </option>
   </component>
@@ -67,7 +69,7 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="81" />
     <option name="y" value="24" />
-    <option name="width" value="969" />
+    <option name="width" value="937" />
     <option name="height" value="765" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -758,15 +760,15 @@
       <workItem from="1497789851830" duration="269000" />
       <workItem from="1497790163092" duration="103000" />
       <workItem from="1497790331224" duration="62000" />
-      <workItem from="1497790475744" duration="2691000" />
+      <workItem from="1497790475744" duration="5728000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18007000" />
+    <option name="totallyTimeSpent" value="21044000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="81" y="24" width="969" height="765" extended-state="4" />
+    <frame x="81" y="24" width="937" height="765" extended-state="4" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -792,7 +794,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900944" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="GhcMod" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.247557" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24746907" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -825,35 +827,35 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/part1.ipynb">
+    <entry file="file://$PROJECT_DIR$/part1_practical_intro.ipynb">
       <provider selected="true" editor-type-id="ipnb-editor">
         <state>
           <selected id="-1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/part1.ipynb">
+    <entry file="file://$PROJECT_DIR$/part1_practical_intro.ipynb">
       <provider selected="true" editor-type-id="ipnb-editor">
         <state>
           <selected id="-1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/part1.ipynb">
+    <entry file="file://$PROJECT_DIR$/part1_practical_intro.ipynb">
       <provider selected="true" editor-type-id="ipnb-editor">
         <state>
           <selected id="-1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/part1.ipynb">
+    <entry file="file://$PROJECT_DIR$/part1_practical_intro.ipynb">
       <provider selected="true" editor-type-id="ipnb-editor">
         <state>
           <selected id="-1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/part1.ipynb">
+    <entry file="file://$PROJECT_DIR$/part1_practical_intro.ipynb">
       <provider selected="true" editor-type-id="ipnb-editor">
         <state>
           <selected id="-1" />
@@ -877,7 +879,21 @@
     <entry file="file://$PROJECT_DIR$/part1.ipynb">
       <provider selected="true" editor-type-id="ipnb-editor">
         <state>
-          <selected id="13" />
+          <selected id="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/part1_practical_intro.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/part2_when_results_differ.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="-1" />
         </state>
       </provider>
     </entry>
