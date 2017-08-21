@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1738fb9c-5c92-4c54-ae50-135af7a63aeb" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Part2_WhenResultsDiffer.ipynb" afterPath="$PROJECT_DIR$/Part2_WhenResultsDiffer.ipynb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Part3_ConfidenceCredibility.ipynb" afterPath="$PROJECT_DIR$/Part3_ConfidenceCredibility.ipynb" />
     </list>
     <ignored path="[Blog]FreqVsBayes.iws" />
@@ -792,12 +791,12 @@
       <workItem from="1503297539556" duration="2183000" />
       <workItem from="1503303272872" duration="464000" />
       <workItem from="1503304294539" duration="8996000" />
-      <workItem from="1503326764037" duration="2502000" />
+      <workItem from="1503326764037" duration="3081000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36383000" />
+    <option name="totallyTimeSpent" value="36962000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
