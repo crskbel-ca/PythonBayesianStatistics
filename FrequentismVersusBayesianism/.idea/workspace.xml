@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1738fb9c-5c92-4c54-ae50-135af7a63aeb" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Part5_ModelSelection.py.ipynb" afterPath="$PROJECT_DIR$/Part5_ModelSelection.py.ipynb" />
     </list>
     <ignored path="[Blog]FreqVsBayes.iws" />
@@ -44,7 +45,7 @@
         <entry file="file://$PROJECT_DIR$/Part5_ModelSelection.py.ipynb">
           <provider selected="true" editor-type-id="ipnb-editor">
             <state>
-              <selected id="11" />
+              <selected id="39" />
             </state>
           </provider>
         </entry>
@@ -90,7 +91,7 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="81" />
     <option name="y" value="24" />
-    <option name="width" value="922" />
+    <option name="width" value="1081" />
     <option name="height" value="763" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -787,12 +788,12 @@
       <workItem from="1503303272872" duration="464000" />
       <workItem from="1503304294539" duration="8996000" />
       <workItem from="1503326764037" duration="3081000" />
-      <workItem from="1503381969914" duration="15301000" />
+      <workItem from="1503381969914" duration="18316000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52263000" />
+    <option name="totallyTimeSpent" value="55278000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -804,7 +805,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="81" y="24" width="922" height="763" extended-state="4" />
+    <frame x="81" y="24" width="1081" height="763" extended-state="4" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1018,7 +1019,7 @@
     <entry file="file://$PROJECT_DIR$/Part5_ModelSelection.py.ipynb">
       <provider selected="true" editor-type-id="ipnb-editor">
         <state>
-          <selected id="11" />
+          <selected id="39" />
         </state>
       </provider>
     </entry>
