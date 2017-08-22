@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1738fb9c-5c92-4c54-ae50-135af7a63aeb" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Part5_ModelSelection.py.ipynb" afterPath="$PROJECT_DIR$/Part5_ModelSelection.py.ipynb" />
     </list>
     <ignored path="[Blog]FreqVsBayes.iws" />
@@ -31,26 +30,7 @@
     <favorites_list name="[Blog]FreqVsBayes" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Part4_HowToBeBayesianInPython.ipynb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Part4_HowToBeBayesianInPython.ipynb">
-          <provider selected="true" editor-type-id="ipnb-editor">
-            <state>
-              <selected id="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Part5_ModelSelection.py.ipynb" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Part5_ModelSelection.py.ipynb">
-          <provider selected="true" editor-type-id="ipnb-editor">
-            <state>
-              <selected id="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -788,12 +768,12 @@
       <workItem from="1503303272872" duration="464000" />
       <workItem from="1503304294539" duration="8996000" />
       <workItem from="1503326764037" duration="3081000" />
-      <workItem from="1503381969914" duration="18316000" />
+      <workItem from="1503381969914" duration="18370000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55278000" />
+    <option name="totallyTimeSpent" value="55332000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -806,7 +786,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="81" y="24" width="1081" height="763" extended-state="4" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
