@@ -1,0 +1,764 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c7f51495-a1de-4808-94a7-84b09665f927" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FrequentismVersusBayesianism/.idea/.name" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FrequentismVersusBayesianism/.idea/FrequentismVsBayesianism.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FrequentismVersusBayesianism/.idea/compiler.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FrequentismVersusBayesianism/.idea/copyright/profiles_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FrequentismVersusBayesianism/.idea/encodings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FrequentismVersusBayesianism/.idea/misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FrequentismVersusBayesianism/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FrequentismVersusBayesianism/.idea/vcs.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FrequentismVersusBayesianism/.idea/workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FrequentismVersusBayesianism/.ipynb_checkpoints/Part1_APracticalIntroduction-checkpoint.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FrequentismVersusBayesianism/.ipynb_checkpoints/Part2_WhenResultsDiffer-checkpoint.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FrequentismVersusBayesianism/.ipynb_checkpoints/Part3_ConfidenceCredibility-checkpoint.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FrequentismVersusBayesianism/.ipynb_checkpoints/Part4_HowToBeBayesianInPython-checkpoint.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FrequentismVersusBayesianism/.ipynb_checkpoints/part1.nbconvert-checkpoint.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FrequentismVersusBayesianism/.ipynb_checkpoints/part2_when_results_differ-checkpoint.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FrequentismVersusBayesianism/Part1_APracticalIntroduction.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FrequentismVersusBayesianism/Part2_WhenResultsDiffer.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FrequentismVersusBayesianism/Part3_ConfidenceCredibility.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FrequentismVersusBayesianism/Part4_HowToBeBayesianInPython.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FrequentismVersusBayesianism/Part5_ModelSelection.py.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FrequentismVersusBayesianism/images/2_approach3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FrequentismVersusBayesianism/images/2_beta.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FrequentismVersusBayesianism/images/2_building.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FrequentismVersusBayesianism/images/2_joint_then_marginalize.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FrequentismVersusBayesianism/images/2_linearfit.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FrequentismVersusBayesianism/images/3_bayes1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FrequentismVersusBayesianism/images/3_bayescredibleinterval.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FrequentismVersusBayesianism/images/3_example2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FrequentismVersusBayesianism/images/3_freq1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FrequentismVersusBayesianism/images/3_freq2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FrequentismVersusBayesianism/images/3_samplingdist.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FrequentismVersusBayesianism/images/3_word.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FrequentismVersusBayesianism/images/3_words.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FrequentismVersusBayesianism/images/4_model.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FrequentismVersusBayesianism/images/4_prior1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FrequentismVersusBayesianism/images/4_prior2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FrequentismVersusBayesianism/images/4_prior3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FrequentismVersusBayesianism/images/5_1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FrequentismVersusBayesianism/images/5_bayesoddsratio.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FrequentismVersusBayesianism/images/5_bayessel.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FrequentismVersusBayesianism/images/5_chi.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FrequentismVersusBayesianism/images/5_diff.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FrequentismVersusBayesianism/images/5_final.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FrequentismVersusBayesianism/images/5_freqsel.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FrequentismVersusBayesianism/images/5_modelfit.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FrequentismVersusBayesianism/images/5_modelfitvsmodelselect.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FrequentismVersusBayesianism/images/5_more.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FrequentismVersusBayesianism/images/F_est.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FrequentismVersusBayesianism/images/F_est_Fi.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FrequentismVersusBayesianism/images/F_true_stochastic.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FrequentismVersusBayesianism/images/bayesformula.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FrequentismVersusBayesianism/images/likelihood.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FrequentismVersusBayesianism/images/likelihood2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FrequentismVersusBayesianism/images/loglikelihood.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FrequentismVersusBayesianism/images/params.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FrequentismVersusBayesianism/images/prob_d_given_F_true.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FrequentismVersusBayesianism/pystan_trace.npy" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TheInferenceButton/.idea/.name" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TheInferenceButton/.idea/BlogInferenceButton.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TheInferenceButton/.idea/compiler.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TheInferenceButton/.idea/copyright/profiles_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TheInferenceButton/.idea/encodings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TheInferenceButton/.idea/misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TheInferenceButton/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TheInferenceButton/.idea/workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TheInferenceButton/part1.nbconvert.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TheInferenceButton/part2.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TheInferenceButton/part3.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TheInferenceButton/radon.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TheInferenceButton/testcss.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkBayes/.cache/v/cache/lastfailed" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkBayes/.idea/.name" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkBayes/.idea/[Allen B. Downey] ThinkBayes.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkBayes/.idea/compiler.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkBayes/.idea/copyright/profiles_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkBayes/.idea/encodings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkBayes/.idea/inspectionProfiles/Project_Default.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkBayes/.idea/misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkBayes/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkBayes/.idea/vcs.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkBayes/.idea/workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkBayes/src/.cache/v/cache/lastfailed" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkBayes/src/CDBRFS08.ASC.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkBayes/src/Exercises/Chap1_CookieNoRepl.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkBayes/src/MyIntro/AboutPMF.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkBayes/src/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkBayes/src/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkBayes/src/brfss.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkBayes/src/brfss2.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkBayes/src/columns.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkBayes/src/cookie.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkBayes/src/cookie2.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkBayes/src/correlation.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkBayes/src/dice.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkBayes/src/dungeons.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkBayes/src/euro.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkBayes/src/euro2.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkBayes/src/euro3.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkBayes/src/hockey.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkBayes/src/hockey_data.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkBayes/src/hyrax.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkBayes/src/jaynes.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkBayes/src/jaynes1.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkBayes/src/jaynes2.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkBayes/src/jaynes3.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkBayes/src/journal.pone.0047712.s001.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkBayes/src/kidney.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkBayes/src/kidney1.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkBayes/src/kidney2.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkBayes/src/kidney4.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkBayes/src/kidney5.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkBayes/src/kidney6.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkBayes/src/kidney7.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkBayes/src/kidney8.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkBayes/src/kidney_table.tex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkBayes/src/m_and_m.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkBayes/src/monty.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkBayes/src/monty2.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkBayes/src/myplot.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkBayes/src/paintball.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkBayes/src/price.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkBayes/src/redline.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkBayes/src/redline_data.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkBayes/src/sat.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkBayes/src/sat_1_prior.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkBayes/src/sat_2_calibrate.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkBayes/src/sat_3_posteriors_p_corr.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkBayes/src/sat_4_joint.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkBayes/src/sat_5_posteriors_eff.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkBayes/src/sat_ranks.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkBayes/src/sat_scale.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkBayes/src/showcases.2011.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkBayes/src/showcases.2012.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkBayes/src/species.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkBayes/src/survey.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkBayes/src/thinkbayes.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkBayes/src/thinkbayes2.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkBayes/src/thinkbayes2_yuml.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkBayes/src/thinkplot.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkBayes/src/thinkplot2.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkBayes/src/thinkstats.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkBayes/src/train.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkBayes/src/train2.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkBayes/src/train3.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkBayes/src/variability.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkBayes/src/variability2.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkBayes/src/variability_cv.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkBayes/src/variability_posterior_female.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkBayes/src/variability_posterior_male.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkBayes2/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkBayes2/.idea/[Allen B. Downey] ThinkBayes 2.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkBayes2/.idea/encodings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkBayes2/.idea/misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkBayes2/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkBayes2/.idea/workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkBayes2/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkBayes2/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkBayes2/src/CDBRFS08.ASC.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkBayes2/src/Makefile" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkBayes2/src/blaster.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkBayes2/src/brfss.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkBayes2/src/btp01.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkBayes2/src/btp01soln.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkBayes2/src/chap02.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkBayes2/src/chap02soln.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkBayes2/src/chap03.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkBayes2/src/chap03soln.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkBayes2/src/chap04.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkBayes2/src/chap04soln.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkBayes2/src/chap05.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkBayes2/src/chap05soln.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkBayes2/src/chap07.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkBayes2/src/chap07soln.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkBayes2/src/chap09.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkBayes2/src/chap09soln.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkBayes2/src/chap11soln.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkBayes2/src/columns.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkBayes2/src/cookie.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkBayes2/src/cookie2.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkBayes2/src/cookie3.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkBayes2/src/dice.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkBayes2/src/distribution.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkBayes2/src/drp_scores.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkBayes2/src/dungeons.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkBayes2/src/effect.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkBayes2/src/effect_soln.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkBayes2/src/electorate.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkBayes2/src/electorate_soln.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkBayes2/src/euro.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkBayes2/src/euro2.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkBayes2/src/euro3.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkBayes2/src/examples/voter.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkBayes2/src/flea_beetles.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkBayes2/src/framework.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkBayes2/src/gps.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkBayes2/src/gps_soln.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkBayes2/src/hockey.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkBayes2/src/hockey_data.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkBayes2/src/hyrax_soln.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkBayes2/src/hyrax_soln.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkBayes2/src/journal.pone.0047712.s001.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkBayes2/src/kidney.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkBayes2/src/lincoln.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkBayes2/src/lincoln_soln.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkBayes2/src/loop.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkBayes2/src/m_and_m.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkBayes2/src/monty.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkBayes2/src/monty2.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkBayes2/src/paintball.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkBayes2/src/price.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkBayes2/src/redline.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkBayes2/src/redline_data.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkBayes2/src/sat.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkBayes2/src/sat2.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkBayes2/src/sat2_soln.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkBayes2/src/sat_ranks.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkBayes2/src/sat_scale.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkBayes2/src/showcases.2011.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkBayes2/src/showcases.2012.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkBayes2/src/soccer.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkBayes2/src/soccer2.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkBayes2/src/soccer2_soln.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkBayes2/src/soccer_soln.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkBayes2/src/soccer_soln.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkBayes2/src/soccer_soln2.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkBayes2/src/species.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkBayes2/src/survival.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkBayes2/src/survival_soln.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkBayes2/src/thinkbayes2.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkBayes2/src/thinkbayes2_yuml.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkBayes2/src/thinkplot.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkBayes2/src/tinder.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkBayes2/src/train.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkBayes2/src/train2.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkBayes2/src/train3.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkBayes2/src/train4.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkBayes2/src/train4_soln.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkBayes2/src/variability.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkBayes2/src/variability_cv.eps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkBayes2/src/variability_cv.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkBayes2/src/variability_posterior_female.eps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkBayes2/src/variability_posterior_female.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkBayes2/src/variability_posterior_male.eps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkBayes2/src/variability_posterior_male.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkStats/.idea/[Allen B. Downey] ThinkStats.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkStats/.idea/compiler.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkStats/.idea/encodings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkStats/.idea/misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkStats/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkStats/.idea/sbt.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkStats/.idea/workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkStats/src/1982NSFGData.dat.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkStats/src/1995FemRespData.dat.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkStats/src/2002FemPreg.dat.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkStats/src/2002FemPreg.dct" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkStats/src/2002FemResp.dat.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkStats/src/2002FemResp.dct" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkStats/src/2002Male.dat.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkStats/src/2002Male.dct" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkStats/src/2006_2010_FemPreg.dat.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkStats/src/2006_2010_FemPregSetup.dct" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkStats/src/2006_2010_FemResp.dat.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkStats/src/2006_2010_FemRespSetup.dct" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkStats/src/2006_2010_Male.dat.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkStats/src/2006_2010_MaleSetup.dct" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkStats/src/2011_2013_FemPregData.dat.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkStats/src/2011_2013_FemPregSetup.dct" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkStats/src/2011_2013_FemRespData.dat.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkStats/src/2011_2013_FemRespSetup.dct" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkStats/src/2011_2013_MaleData.dat.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkStats/src/2011_2013_MaleSetup.dct" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkStats/src/Apr25_27thAn_set1.shtml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkStats/src/CDBRFS08.ASC.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkStats/src/CDBRFS08ASC.ZIP" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkStats/src/Makefile" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkStats/src/PEP_2012_PEPANNRES_metadata.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkStats/src/PEP_2012_PEPANNRES_with_ann.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkStats/src/analytic.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkStats/src/babyboom.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkStats/src/brfss.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkStats/src/chap01ex.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkStats/src/chap01ex.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkStats/src/chap01soln.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkStats/src/chap01soln.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkStats/src/chap02ex.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkStats/src/chap02ex.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkStats/src/chap02soln.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkStats/src/chap02soln.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkStats/src/chap03ex.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkStats/src/chap03soln.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkStats/src/chap03soln.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkStats/src/chap04ex.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkStats/src/chap04soln.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkStats/src/chap05ex.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkStats/src/chap05soln.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkStats/src/chap06ex.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkStats/src/chap06soln.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkStats/src/chap06soln.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkStats/src/chap07ex.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkStats/src/chap07soln.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkStats/src/chap07soln.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkStats/src/chap08ex.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkStats/src/chap08soln.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkStats/src/chap08soln.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkStats/src/chap09ex.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkStats/src/chap09soln.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkStats/src/chap09soln.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkStats/src/chap10ex.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkStats/src/chap10soln.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkStats/src/chap11ex.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkStats/src/chap11soln.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkStats/src/chap12ex.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkStats/src/chap12soln.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkStats/src/chap12soln.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkStats/src/chap13ex.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkStats/src/chap13soln.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkStats/src/chap13soln.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkStats/src/chap14ex.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkStats/src/chap14soln.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkStats/src/chap14soln.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkStats/src/cumulative.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkStats/src/density.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkStats/src/estimation.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkStats/src/first.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkStats/src/hinc.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkStats/src/hinc06.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkStats/src/hinc2.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkStats/src/hinc_soln.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkStats/src/hypothesis.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkStats/src/linear.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkStats/src/mj-clean.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkStats/src/mystery.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkStats/src/mystery0.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkStats/src/mystery1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkStats/src/mystery2.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkStats/src/mystery3.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkStats/src/mystery4.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkStats/src/mystery5.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkStats/src/mystery6.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkStats/src/mystery7.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkStats/src/normal.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkStats/src/nsfg.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkStats/src/nsfg2.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkStats/src/pandas_demos.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkStats/src/pandas_examples.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkStats/src/populations.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkStats/src/populations.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkStats/src/probability.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkStats/src/regression.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkStats/src/relay.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkStats/src/relay_soln.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkStats/src/requirements.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkStats/src/scatter.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkStats/src/setup.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkStats/src/survival.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkStats/src/survival.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkStats/src/survival_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkStats/src/test_models.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkStats/src/thinkplot.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkStats/src/thinkplot_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkStats/src/thinkstats2.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkStats/src/thinkstats2_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Allen B. Downey] ThinkStats/src/timeseries.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/graphing/.idea/.name" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/graphing/.idea/GraphingDistributions.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/graphing/.idea/encodings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/graphing/.idea/misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/graphing/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/graphing/.idea/scopes/scope_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/graphing/.idea/vcs.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/graphing/.idea/workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/graphing/Binomial.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/graphing/Normal.py" afterPath="" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="PythonBayesianStatistics.iml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/PythonBayesianStatistics.iml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="370" />
+    <option name="y" value="24" />
+    <option name="width" value="976" />
+    <option name="height" value="773" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource ProjectPane="true" />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PythonBayesianStatistics" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PythonBayesianStatistics" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="GoToClass.includeLibraries" value="false" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="options.lastSelected" value="configurable.group.appearance" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+  </component>
+  <component name="SbtLocalSettings">
+    <option name="modificationStamps">
+      <map>
+        <entry key="/data/projects/playframework-learn/PracticalProbProg" value="1436829282000" />
+        <entry key="/data/projects/playframework-learn/figaro" value="1452924875000" />
+        <entry key="/data/projects/playframework-learn/fpinscala" value="1452585280592" />
+        <entry key="/datascience/projects/statisticallyfit/github/learningalgorithms/scalgos" value="1469195642494" />
+        <entry key="/datascience/projects/statisticallyfit/github/learningprogramming/Scala/ScalaKoans" value="1431798648000" />
+        <entry key="/datascience/projects/statisticallyfit/github/learningprogramming/Scala/ScalaLinearAlgebra" value="1481039223165" />
+        <entry key="/datascience/projects/statisticallyfit/github/learningprogramming/Scala/ScalaTutorial" value="1455267141969" />
+        <entry key="/datascience/projects/statisticallyfit/github/learningprogramming/Scala/fpinscalabe" value="1472035449513" />
+        <entry key="C:/D/projects/playframework-learn/my-first-app" value="1409582196521" />
+      </map>
+    </option>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c7f51495-a1de-4808-94a7-84b09665f927" name="Default" comment="" />
+      <created>1542915474712</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1542915474712</updated>
+      <workItem from="1542915476463" duration="42000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="42000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="370" y="24" width="976" height="773" extended-state="4" />
+    <layout>
+      <window_info id="PlantUML" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Cabal" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="SBT Execute" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="GhcMod" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/PythonBayesianStatistics.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>annotations</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>Python 3.6.7 (/development/bin/python/conda3_shared/bin/python3.6)</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>PythonBayesianStatistics</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
